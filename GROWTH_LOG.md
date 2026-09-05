@@ -6,6 +6,14 @@ Record every growth-relevant edit here. Keep entries short, factual, and useful 
 
 ## Change Log
 
+### 2026-09-05 - Adsterra integration activated
+
+- Task: Replace empty placeholder values in `src/data/ads.ts` with real Adsterra Native Banner, Banner 728x90 / 468x60 / 320x50 / 160x600, and Smartlink codes produced by `adsterra-integrator`.
+- Files changed: `src/data/ads.ts`.
+- URLs affected: None — ad components and positions were predefined by the one-click builder; this entry only fills the existing ad slots.
+- SEO/GEO changed: No surface-level change; search and discoverability unchanged. Real ad codes are now wired into the existing Adsterra-ready modules.
+- Verification: `npm run verify` must succeed before pushing the target commit; adsterra-integrator validator reconciles registry, target `ads.ts`, private config/codes, and target domain.
+
 ### 2026-08-12 - Static discovery and review freshness baseline added
 
 - Task: Add locale-aware static search, automatic recent updates, visible review dates, and browser metadata/security defaults to the shared template.
