@@ -24,14 +24,14 @@ export interface SiteConfig {
 }
 
 export const site: SiteConfig = {
-  name: "Template Game Guide",
-  brandMark: "GG",
-  gameName: "Template Game",
-  domain: "example.com",
-  baseUrl: (process.env.NEXT_PUBLIC_SITE_URL || "https://example.com").replace(/\/$/, ""),
+  name: "WheelMates Guide",
+  brandMark: "WM",
+  gameName: "WheelMates",
+  domain: "wheelmates.pro",
+  baseUrl: (process.env.NEXT_PUBLIC_SITE_URL || "https://wheelmates.pro").replace(/\/$/, ""),
   description:
-    "A neutral game guide hub template for launch pages, wiki notes, guides, release information, and FAQs.",
-  tagline: "Guides, wiki notes, release info, and launch FAQs in one clean hub.",
+    "Unofficial fan reference hub for WheelMates (Firevolt, Steam AppID 3905450): release date, PC system requirements, co-op, RC car gadgets, puzzle walkthroughs, patch notes, and community channels.",
+  tagline: "Release date, PC specs, co-op and split screen, RC car gadgets, puzzle walkthroughs, patch notes, and the official WheelMates community.",
   primaryLocale: "en-US",
   locales: [
     {
@@ -53,16 +53,26 @@ export const site: SiteConfig = {
       },
     },
   ],
-  author: "Template Game Guide",
+  author: "WheelMates Guide",
   gaMeasurementId: process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID || "",
   bingSiteAuthCode: process.env.NEXT_PUBLIC_BING_SITE_AUTH_CODE || "",
   officialSources: [
     {
-      label: "Official website",
-      href: "https://example.com",
-      description: "Replace this with the game publisher or developer website.",
+      label: "Steam store page (AppID 3905450)",
+      href: "https://store.steampowered.com/app/3905450/WheelMates/",
+      description: "Official store page with release date, system requirements, supported languages, and features.",
+    },
+    {
+      label: "Official Firevolt landing hub",
+      href: "https://www.wheelmatesgame.com/",
+      description: "Official press kit and cross-links to Steam, Discord, YouTube, X, TikTok, and Instagram.",
+    },
+    {
+      label: "Steam Community hub",
+      href: "https://steamcommunity.com/app/3905450",
+      description: "Pinned launch FAQ, Friend's Pass guide, and launch-week hotfix posts.",
     },
   ],
   disclaimer:
-    "This is an unofficial fan guide template. Replace placeholder facts with official sources before launch.",
+    "This is an unofficial fan guide. All hard current-game facts are sourced from the official Steam store page (AppID 3905450), wheelmatesgame.com, the verified X handle @wheelmatesgame, the YouTube @WheelMatesGame channel, the official Discord invite, and the Steam Community hub dated 2026-09-05.",
 };

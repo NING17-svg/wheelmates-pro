@@ -1,0 +1,222 @@
+[
+  {
+    "id": "home",
+    "translationKey": "home",
+    "locale": "en-US",
+    "routeKind": "home",
+    "url": "/",
+    "alternates": {
+      "en-US": "/"
+    }
+  },
+  {
+    "id": "about",
+    "translationKey": "about",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/about",
+    "alternates": {
+      "en-US": "/about"
+    }
+  },
+  {
+    "id": "fixed-achievements",
+    "translationKey": "achievements",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/achievements",
+    "alternates": {
+      "en-US": "/achievements"
+    }
+  },
+  {
+    "id": "fixed-co-op-split-screen",
+    "translationKey": "co-op-split-screen",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/co-op",
+    "alternates": {
+      "en-US": "/co-op"
+    }
+  },
+  {
+    "id": "fixed-community-discord",
+    "translationKey": "community-discord",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/community",
+    "alternates": {
+      "en-US": "/community"
+    }
+  },
+  {
+    "id": "contact",
+    "translationKey": "contact",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/contact",
+    "alternates": {
+      "en-US": "/contact"
+    }
+  },
+  {
+    "id": "fixed-controller-support",
+    "translationKey": "controller-support",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/controller-support",
+    "alternates": {
+      "en-US": "/controller-support"
+    }
+  },
+  {
+    "id": "faq",
+    "translationKey": "faq",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/faq",
+    "alternates": {
+      "en-US": "/faq"
+    }
+  },
+  {
+    "id": "guides",
+    "translationKey": "guides",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/guides",
+    "alternates": {
+      "en-US": "/guides"
+    }
+  },
+  {
+    "id": "fixed-language-support",
+    "translationKey": "language-support",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/language-support",
+    "alternates": {
+      "en-US": "/language-support"
+    }
+  },
+  {
+    "id": "fixed-patch-notes",
+    "translationKey": "patch-notes",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/patch-notes",
+    "alternates": {
+      "en-US": "/patch-notes"
+    }
+  },
+  {
+    "id": "fixed-price-editions",
+    "translationKey": "price-editions",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/price-editions",
+    "alternates": {
+      "en-US": "/price-editions"
+    }
+  },
+  {
+    "id": "privacy-policy",
+    "translationKey": "privacy-policy",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/privacy-policy",
+    "alternates": {
+      "en-US": "/privacy-policy"
+    }
+  },
+  {
+    "id": "fixed-puzzle-walkthrough",
+    "translationKey": "puzzle-walkthrough",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/puzzle-walkthrough",
+    "alternates": {
+      "en-US": "/puzzle-walkthrough"
+    }
+  },
+  {
+    "id": "fixed-rc-car-gadgets",
+    "translationKey": "rc-car-gadgets",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/rc-car-gadgets",
+    "alternates": {
+      "en-US": "/rc-car-gadgets"
+    }
+  },
+  {
+    "id": "fixed-release-platforms",
+    "translationKey": "release-platforms",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/release",
+    "alternates": {
+      "en-US": "/release"
+    }
+  },
+  {
+    "id": "fixed-reviews-launch-impressions",
+    "translationKey": "reviews-launch-impressions",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/reviews",
+    "alternates": {
+      "en-US": "/reviews"
+    }
+  },
+  {
+    "id": "fixed-single-player",
+    "translationKey": "single-player",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/single-player",
+    "alternates": {
+      "en-US": "/single-player"
+    }
+  },
+  {
+    "id": "fixed-steam-deck",
+    "translationKey": "steam-deck",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/steam-deck",
+    "alternates": {
+      "en-US": "/steam-deck"
+    }
+  },
+  {
+    "id": "fixed-system-requirements",
+    "translationKey": "system-requirements",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/system-requirements",
+    "alternates": {
+      "en-US": "/system-requirements"
+    }
+  },
+  {
+    "id": "terms",
+    "translationKey": "terms",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/terms",
+    "alternates": {
+      "en-US": "/terms"
+    }
+  },
+  {
+    "id": "wiki",
+    "translationKey": "wiki",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/wiki",
+    "alternates": {
+      "en-US": "/wiki"
+    }
+  }
+]

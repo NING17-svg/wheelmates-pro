@@ -1,19 +1,14 @@
 import type { FAQItem, PageContent, RouteKind } from "@/types/content";
 import { entityFamilies } from "@/data/entities";
 import { faqItems } from "@/data/faq";
-import { guidePages } from "@/data/pages/guide-pages";
-import { homePage } from "@/data/pages/home";
-import { releasePages } from "@/data/pages/release-pages";
+import { homePage, launchPages } from "@/data/pages/launch-pages";
 import { sitePages } from "@/data/pages/site-pages";
-import { wikiPages } from "@/data/pages/wiki-pages";
 import { buildEntityPages } from "@/lib/entities";
 import { normalizePath } from "@/lib/localization";
 
 const fixedPages: PageContent[] = [
   homePage,
-  ...wikiPages,
-  ...guidePages,
-  ...releasePages,
+  ...launchPages,
   ...sitePages,
 ];
 
@@ -80,48 +75,34 @@ export function getFinalRouteManifest(
 }
 
 export function getFaqsForPage(page: PageContent): FAQItem[] {
-  return page.faqIds
-    .map((id) => faqItems.find((faq) => faq.id === id))
-    .filter((faq): faq is FAQItem => Boolean(faq));
+  if (page.faqIds.length === 0) return [];
+  const ids = new Set(page.faqIds);
+  return faqItems.filter((item) => ids.has(item.id));
 }
 
 export function getRelatedPages(page: PageContent): PageContent[] {
-  return page.relatedPageIds
-    .map((id) => getPageById(id))
-    .filter((related): related is PageContent => Boolean(related));
+  if (page.relatedPageIds.length === 0) return [];
+  const targets = new Set(page.relatedPageIds);
+  return pages.filter(
+    (candidate) => candidate.id !== page.id && targets.has(candidate.id),
+  );
 }
 
-function compareUrls(left: PageContent, right: PageContent): number {
-  if (left.url === right.url) return 0;
-  return left.url < right.url ? -1 : 1;
-}
-
-/**
- * Returns a small, deterministic set of content pages for a locale's homepage.
- * Trust pages and tools are intentionally excluded so this is driven only by
- * editorial review dates on actual indexable content pages.
- */
 export function getRecentUpdates(
   locale: string,
-  limit = 5,
-  sourcePages: PageContent[] = getIndexablePages(),
+  limit = 6,
+  sourcePages: PageContent[] = pages,
 ): PageContent[] {
-  if (limit <= 0) return [];
-
   return sourcePages
-    .filter(
-      (page) =>
-        page.locale === locale &&
-        page.pageType !== "home" &&
-        page.pageType !== "faq" &&
-        page.pageType !== "site" &&
-        page.routeKind !== "tool",
-    )
+    .filter((page) => page.locale === locale)
+    .filter((page) => page.routeKind !== "home")
+    .filter((page) => page.pageType !== "site")
+    .filter((page) => page.pageType !== "faq")
+    .filter((page) => page.routeKind !== "tool")
     .sort((left, right) => {
-      if (left.lastReviewed !== right.lastReviewed) {
-        return left.lastReviewed < right.lastReviewed ? 1 : -1;
-      }
-      return compareUrls(left, right);
+      const dateCompare = right.lastReviewed.localeCompare(left.lastReviewed);
+      if (dateCompare !== 0) return dateCompare;
+      return left.id.localeCompare(right.id);
     })
     .slice(0, limit);
 }
