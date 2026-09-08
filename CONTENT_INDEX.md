@@ -21,6 +21,9 @@ hreflang, sitemap, and route-manifest validation.
 | `/contact` | `src/data/pages/site-pages.ts` | Utility | contact Template Game Guide | Corrections and source updates | About | Trust | Contact channel pending. |
 | `/privacy-policy` | `src/data/pages/site-pages.ts` | Legal | privacy policy | Privacy and analytics | Terms | Trust | GA4 only when configured. |
 | `/terms` | `src/data/pages/site-pages.ts` | Legal | terms of use | Site use expectations | Privacy Policy | Trust | Keep unofficial disclaimer clear. |
+| `/co-op` | `src/data/pages/launch-pages.ts` (`fixed-co-op-split-screen`) | Guide | WheelMates split screen and online co-op | Confirm online co-op, local split screen, and Friend's Pass mechanics | `/patch-notes/`, `/single-player/` | Answer hub | Now mentions the Sep 5, 2026 "Hotfix: Local Co-op Fatal Error" and the recurring version-matching prerequisite; crossplay marked unannounced as of 2026-09-07. |
+| `/single-player` | `src/data/pages/launch-pages.ts` (`fixed-single-player`) | Guide | WheelMates single player | Confirm solo play works and find the second-controller caveat | `/co-op/`, `/patch-notes/` | Answer hub | Now mentions the Sep 5, 2026 "Hotfix: Local Co-op Fatal Error" and the recurring version-matching prerequisite; crossplay marked unannounced as of 2026-09-07. |
+| `/patch-notes` | `src/data/pages/launch-pages.ts` (`fixed-patch-notes`) | Guide | WheelMates patch notes | Find every launch-week hotfix and what each one fixed | `/co-op/`, `/single-player/` | Answer hub | Now lists Sep 1, 2, 4, and 5, 2026 hotfixes with detailed Sep 2/4 bullet lists and the Sep 5 Local Co-op Fatal Error + version-matching prerequisite. |
 
 ## Generated Route Families
 
@@ -33,6 +36,7 @@ hreflang, sitemap, and route-manifest validation.
 
 - Launch facts: `/release-date`, `/faq`
 - Official facts and safe guide structure: `/wiki`, `/guides`
+- Co-op, solo, and hotfix coverage: `/co-op`, `/single-player`, `/patch-notes`
 - Evergreen hub and trust: `/`, `/about`, `/contact`, `/privacy-policy`, `/terms`
 
 ## Internal Linking Map
@@ -42,7 +46,11 @@ hreflang, sitemap, and route-manifest validation.
 - Guides should link to wiki and release pages.
 - Release Date should link to FAQ and official sources.
 - FAQ should include all current high-demand answer pages.
+- Co-op and single-player pages cross-link to each other and to /patch-notes for the launch-week hotfix history and the version-matching prerequisite.
+- Patch notes page links back to /co-op and /single-player for the user-facing explanation of each fix.
 
 ## Open Questions
 
 - Replace this section with game-specific unknowns during content configuration.
+- Crossplay with PS5, Xbox, Switch, and Switch 2 is Not announced as of 2026-09-07; revisit the section when Firevolt announces a console build.
+- Public post-launch patch roadmap beyond the Sep 1-5, 2026 hotfixes: Not announced as of 2026-09-07.

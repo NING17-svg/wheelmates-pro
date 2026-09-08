@@ -6,6 +6,14 @@ Record every growth-relevant edit here. Keep entries short, factual, and useful 
 
 ## Change Log
 
+### 2026-09-07 - Co-op and single-player clarity + launch-week patch notes (Sep 5)
+
+- Task: Update /co-op and /single-player pages to mention the new Sep 5, 2026 "Hotfix: Local Co-op Fatal Error", the recurring version-matching prerequisite, and mark crossplay with PS5 / Xbox / Switch / Switch 2 as unannounced as of 2026-09-07. Update /patch-notes to add the Sep 5, 2026 hotfix and absorb the more detailed Sep 2 / Sep 4 fix lists (Intel AI Boost startup crash, host AFK Play-button disappearance, Shed/Backyard three-antenna puzzle, red cooperative lever disappearing, NeuroVoids collision, Rope Swing not appearing for joiner, DualSense/DualShock 4 repeated D-pad inputs, audio issues, steep-slope vehicle behavior, Game of Tag 40-second timer cap, scannable-object achievement).
+- Files changed: `src/data/pages/launch-pages.ts` (three `fixed-*` page entries: `fixed-co-op-split-screen`, `fixed-single-player`, `fixed-patch-notes`), `CONTENT_INDEX.md`.
+- URLs affected: `/co-op`, `/single-player`, `/patch-notes`. `lastReviewed` bumped to 2026-09-07 on each.
+- SEO/GEO changed: Quick answers, FAQ blocks, sources, internal-link requirements, and fact-boundaries now restate the version-matching prerequisite and pin the crossplay stance to 2026-09-07. /patch-notes now mirrors the per-hotfix bullet lists published on the Steam Community hub news tab, not just the high-level summaries.
+- Verification: `npm run verify` (typecheck + lint + template/content/indexnow/build/rendered-seo validators) must succeed before pushing the target commit; `npm run routes:manifest` should still produce the same 17 primary-locale routes.
+
 ### 2026-09-05 - Adsterra integration activated
 
 - Task: Replace empty placeholder values in `src/data/ads.ts` with real Adsterra Native Banner, Banner 728x90 / 468x60 / 320x50 / 160x600, and Smartlink codes produced by `adsterra-integrator`.
