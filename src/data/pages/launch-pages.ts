@@ -499,7 +499,8 @@ Yes. Firevolt's Sep 5 and Sep 7, 2026 hotfix posts both restate the prerequisite
       { id: "co-op-split-screen-internal-links", type: "prose", heading: `Internal Link Requirements`, body: `- \`WheelMates release and platform status page\` -> \`/release/\` - which platforms co-op is available on
 - \`WheelMates single-player page\` -> \`/single-player/\` - playing without a partner
 - \`WheelMates community and Discord page\` -> \`/community/\` - where to find a partner or report a connection issue
-- \`WheelMates patch notes page\` -> \`/patch-notes/\` - dated co-op and progression fixes including the Sep 5, 2026 "Hotfix: Local Co-op Fatal Error" and the Sep 7, 2026 "Hotfix: Co-op, Progression, and Performance Improvements"` },
+- \`WheelMates patch notes page\` -> \`/patch-notes/\` - dated co-op and progression fixes including the Sep 5, 2026 "Hotfix: Local Co-op Fatal Error" and the Sep 7, 2026 "Hotfix: Co-op, Progression, and Performance Improvements"
+- \`WheelMates co-op setup and troubleshooting page\` -> \`/co-op-troubleshooting/\` - step-by-step online co-op setup, Friend's Pass install, invite flow, "Waiting for Player" stall fixes, and the Steam Remote Play Together desync-safe fallback` },
       { id: "co-op-split-screen-fact-boundaries", type: "prose", heading: `Fact Boundaries`, body: `- Research date for every claim on this page: 2026-09-09.
 - Confirmed by the Steam store page: 2-player co-op, Online Co-op, Shared/Split Screen Co-op, Shared/Split Screen, Friend's Pass free-guest access, Full Controller Support, Family Sharing, single-player support.
 - Confirmed by the Sep 5, 2026 Steam Community hub post: the Local Co-op Fatal Error hotfix shipped, and the version-matching prerequisite (same build on host and joiner, with the version number visible in the lower-left corner of the main menu) applies to every co-op session.
@@ -515,6 +516,158 @@ Yes. Firevolt's Sep 5 and Sep 7, 2026 hotfix posts both restate the prerequisite
     schemaTypes: ["Article", "BreadcrumbList"],
     sourceStatus: "official",
     lastReviewed: "2026-09-09",
+  },
+  {
+    id: "fixed-co-op-troubleshooting",
+    translationKey: "co-op-troubleshooting",
+    locale: "en-US",
+    routeKind: "fixed",
+    slug: "co-op-troubleshooting",
+    url: "/co-op-troubleshooting",
+    pageType: "guides",
+    presentation: {shell: "content", variant: "reading-right-rail"},
+    h1: `WheelMates Co-op Session Setup and Troubleshooting Guide`,
+    seoTitle: `WheelMates Co-op Setup and Troubleshooting: Friend's Pass, Invite Flow, "Waiting for Player" Fixes`,
+    metaDescription: `WheelMates online co-op session setup and troubleshooting: version-matching prerequisite, Friend's Pass companion app install, Steam Friends invite vs lobby-code choice, "Waiting for Player" stall troubleshooting order, Steam Remote Play Together desync-safe fallback, and Friend's Pass vs Family Sharing distinction.`,
+    summary: `WheelMates Co-op Session Setup and Troubleshooting Guide`,
+    hero: {
+      subtitle: `WheelMates Co-op Session Setup and Troubleshooting Guide`,
+      ctas: [],
+    },
+    quickAnswer: `WheelMates Co-op Session Setup and Troubleshooting Guide`,
+    keyFacts: [
+      {label: "Research date", value: "2026-09-10"},
+      {label: "Source tier", value: "Official Steam store + Firevolt channels + Steam Community pinned guides"},
+      {label: "Status", value: "complete"},
+    ],
+    modules: [
+      { id: "co-op-troubleshooting-quick-answer", type: "prose", heading: `Quick Answer`, body: `Online co-op in WheelMates runs between two Steam copies and is gated by a recurring version-matching prerequisite: both the host and the joiner must be running the same build, with the version number visible in the lower-left corner of the main menu. The companion "WheelMates - Friend's Pass" app installs for free on the joiner's Steam account so the guest does not need to buy the base game. The launch-day invite flow is documented in the pinned "HOW TO INVITE A FRIEND WITH FRIEND'S PASS" Steam Community guide (Sep 2, 2026), with a Steam Friends invite path as the default and a lobby-code path as the supported fallback when the players are not on each other's Steam friends list. If a lobby sticks on "Waiting for Player" or "Waiting for Friend", the launch-week troubleshooting order is: confirm version match, verify local game files via Steam, restart both Steam clients, confirm the Friend's Pass companion app is installed on the joiner, disable VPN / strict NAT on the host, then re-create the lobby. If the stall persists, Steam Remote Play Together is the desync-safe mirror that runs the host's local session and assigns Player 2 to the joiner's controller. Friend's Pass and Steam Family Sharing are not interchangeable: Friend's Pass is a one-way host-owned invite for two-player co-op only, while Family Sharing grants a separate library license that does not by itself grant Friend's Pass co-op eligibility on this title.
+
+## What this page covers
+
+The high-level framing of online co-op, shared/split screen co-op, and Friend's Pass lives on the [WheelMates co-op and split screen page](/co-op/). This page is the step-by-step companion for players who already know they want a two-player online co-op session and need a single reference to set it up, recover a stuck lobby, or fall back to the desync-safe Remote Play Together path. Every step on this page ties back to a public source in the Sources block at the end.
+
+## How to use this guide
+
+Read sections in order the first time you set up a co-op session:
+
+1. [Confirm the version-matching prerequisite](#version-matching-prerequisite-before-joining-an-online-co-op-session) — this is the silent-failure cause most launch-week players hit first.
+2. [Install the Friend's Pass companion app on the joiner's PC](#friends-pass-companion-app-install-on-the-guest-pc) — without it, the joiner cannot connect.
+3. [Follow the Steam Friends invite vs lobby-code choice](#steam-friends-invite-flow-vs-lobby-code) — the pinned Steam Community guide covers the supported paths.
+4. [Run the "Waiting for Player" stall troubleshooting order](#waiting-for-player-stall-troubleshooting-order) — only if the lobby is stuck.
+5. [Fall back to Steam Remote Play Together](#steam-remote-play-together-desync-safe-fallback) — only if the stall persists after steps 1-4.
+
+Players who want the high-level context for each step can follow the related links in the [WheelMates patch notes page](/patch-notes/) for the dated hotfix history and the [WheelMates co-op and split screen page](/co-op/) for the feature-level summary.` },
+      { id: "co-op-troubleshooting-version-matching", type: "prose", heading: `Version-matching prerequisite before joining an online co-op session`, body: `The Sep 5, 2026 "Hotfix: Local Co-op Fatal Error" Steam Community post and the Sep 7, 2026 "Hotfix: Co-op, Progression, and Performance Improvements" Steam Community post both restate the same prerequisite that applies to every online co-op session in WheelMates: both the host and the joiner must be running the same build of the game before they try to connect. Mismatched builds produce silent join failures rather than a clear error, which is why the launch-week Steam Community discussions "Cant load saved game with friend" by nauGhty on 2026-09-07 and "REMOTE PLAY TOGETHER" by KOBAYASHI (13 replies as of 2026-09-09) keep surfacing this prerequisite as the first thing to check before debugging anything else.
+
+The version number is rendered in the lower-left corner of the main menu so it can be compared at a glance. The practical sequence before launching any online session is:
+
+1. Both Steam clients updated to the latest stable build (right-click WheelMates in the Steam library → Properties → Updates → "Keep this game updated").
+2. Both copies of WheelMates launched so Steam preloads the latest version. The post-launch build number in the lower-left corner is the canonical confirmation.
+3. Both copies closed and reopened so the Steam client reloads the cached session and stops reporting a stale "Playing WheelMates" status.
+
+If the numbers in the lower-left corner still do not match after a fresh launch on both machines, fully close Steam and reopen it on the joiner's PC before retrying, because Steam sometimes shows the cached build number until the client restarts. The same Sep 5 and Sep 7, 2026 hotfix posts are the canonical sources for this prerequisite and they are linked from the [WheelMates patch notes page](/patch-notes/) for context.` },
+      { id: "co-op-troubleshooting-friends-pass-companion", type: "prose", heading: `Friend's Pass companion app install on the guest PC`, body: `Friend's Pass is implemented as a separate, free Steam app titled "WheelMates - Friend's Pass" that installs on the guest PC. The host owns the base game (AppID 3905450) and the guest installs the companion app, which is what allows the free join without buying a second copy. The companion app is surfaced on the same Steam store page as a separate DLC entry, and the install path on the guest machine is:
+
+1. The guest opens the Steam store page for WheelMates (AppID 3905450) or follows the link that Steam sends once the host initiates a Friend's Pass invite.
+2. The guest clicks "Install" on the "WheelMates - Friend's Pass" entry. The install is free, and Steam lists it as DLC associated with the base app.
+3. The guest launches the companion app, which routes them into the host's session once the invite is accepted. The host owns the base game and is the only player who can launch a co-op session; the companion app on the joiner's PC is what lets that join succeed.
+
+Without the companion app installed on the guest machine, the joiner cannot connect to the host's session. This is the most common silent failure mode reported in the "Cant load saved game with friend" thread by nauGhty on 2026-09-07, where the joiner's Steam client shows a stalled lobby with no error message. If the joiner has previously uninstalled the companion app, the Steam library → Tools filter is the fastest way to find and reinstall it before retrying.` },
+      { id: "co-op-troubleshooting-steam-invite-flow", type: "prose", heading: `Steam Friends invite flow vs lobby code`, body: `The pinned "HOW TO INVITE A FRIEND WITH FRIEND'S PASS" Steam Community guide (Sep 2, 2026, 6 replies) is the canonical reference for the invite steps as of 2026-09-10. There are two practical invite paths and which one to use depends on whether both players are already Steam friends.
+
+- **Steam Friends invite path** (the supported default when both players are Steam friends): the host launches WheelMates, opens the Steam Overlay with Shift+Tab, right-clicks the friend in the friends list, and chooses "Invite to Play". The friend accepts and both clients land on the join screen. This is the path most launch-week co-op runners use and the one the pinned Steam Community guide describes step-by-step.
+- **Lobby code path** (the supported fallback when the players are not Steam friends): the host starts a session and receives a lobby code; the joiner enters that code through the Steam Overlay or the in-game lobby screen. The lobby-code path is the practical workaround when a co-op partner is not on the Steam friends list yet, and it is the path the worldeka launch-day troubleshooting checklist documents under the "lobby-code" category.
+
+If neither path connects, the worldeka launch-day troubleshooting checklist documents that the next step is to verify the local game files via Steam (right-click WheelMates in the library → Properties → Installed Files → "Verify integrity of tooled files") and to confirm the host's VPN or strict NAT is not blocking the inbound connection. Both of those checks are part of the [Waiting for Player stall troubleshooting order](#waiting-for-player-stall-troubleshooting-order) below.` },
+      { id: "co-op-troubleshooting-waiting-for-player", type: "prose", heading: `"Waiting for Player" stall troubleshooting order`, body: `If the host's lobby is stuck on "Waiting for Player" or the joiner is stuck on "Waiting for Friend", the launch-week troubleshooting order is the one surfaced across the worldeka launch-day checklist, the Steam Community pinned LAUNCH FAQ (Sep 3, 2026, 13 replies), and the Sep 5 / Sep 7, 2026 hotfix posts. Working through these in order resolves most silent failures:
+
+1. **Confirm version match** — both players on the same Steam build, version number visible in the lower-left corner of the main menu. The [version-matching prerequisite](#version-matching-prerequisite-before-joining-an-online-co-op-session) section above is the source for this check.
+2. **Verify game files** — Steam library → right-click WheelMates → Properties → Installed Files → "Verify integrity of tooled files". This catches corrupted local installs that produce silent lobby stalls and is the worldeka checklist's "file verification" category.
+3. **Restart Steam clients** — fully close Steam on both machines, reopen, and re-launch WheelMates. Steam's cached session state can pin a stale build number or a phantom offline state until the client reloads.
+4. **Confirm the Friend's Pass companion app is installed on the joiner's PC** — without the "WheelMates - Friend's Pass" companion app, the joiner will not see the host's session. The [Friend's Pass companion app install](#friends-pass-companion-app-install-on-the-guest-pc) section above is the source.
+5. **Disable VPN / strict NAT on the host** — community reports on the worldeka checklist flag that a VPN on the host can drop the inbound connection silently. Test by disabling the VPN on the host (or temporarily switching to a wired connection on the host's network).
+6. **Restart the lobby from the host's main menu** — leave the lobby, return to the main menu, and re-create the session. This clears any cached lobby state that survived the join attempt.
+
+If the stall persists after step 6, the next safe step is the Steam Remote Play Together fallback below rather than continuing to retry the broken lobby. Repeating the built-in online co-op path past step 6 does not resolve the launch-week netcode desync that the togame.io article documents and the Steam Community "REMOTE PLAY TOGETHER" thread by KOBAYASHI (13 replies as of 2026-09-09) tracks.` },
+      { id: "co-op-troubleshooting-remote-play-together", type: "prose", heading: `Steam Remote Play Together desync-safe fallback`, body: `WheelMates is built around local split-screen physics on a single PC, so the desync-free co-op fallback for two players in different locations is Steam Remote Play Together, which mirrors the host's single-PC session to the joiner's controller rather than bridging two PCs over the internet. This path is community-tested as of 2026-09-09; Firevolt has not published a first-party confirmation of PC-to-PC Remote Play Together for WheelMates, but the Steam Community "REMOTE PLAY TOGETHER" discussion thread by KOBAYASHI (13 replies as of 2026-09-09) and the "Steam Remote Play? Please?" thread (8 replies, most recent Remote Play Together request) show launch-week players using it as the desync-safe mirror.
+
+The concrete procedure, distilled from the togame.io "WheelMates Online Desync Split-Screen Workaround" article, is:
+
+1. The host launches WheelMates and reaches the main menu. Steam Overlay is enabled via Steam → Settings → In-Game if it is not already on.
+2. The host plugs in a controller for themselves and confirms the joiner has a controller or another Steam-recognized input on their end.
+3. The host opens the Steam Overlay (Shift+Tab), right-clicks the friend in the friends list, and chooses "Remote Play Together". The "Invite Anyone" link or a guest link works if the friend does not need to use their own Steam account for the session.
+4. The friend accepts the invite. Steam assigns their controller as Player 2 on the host machine, and the friend sees the host's streamed screen with their own input.
+5. Both players start a local or split-screen session on the host's machine — explicitly **not** the game's built-in online lobby. Both RC cars now simulate on the host PC "exactly like couch co-op", which is why the desync that breaks the built-in online co-op does not happen on this path.
+6. If input fails to register, the host uses the overlay Remote Play panel to enable the friend's controller and disable any mouse/keyboard bleed, since Steam treats extra keyboard input as shared on the host machine.
+
+The fallback works because "the game instance never leaves the host, so physics stay in lockstep. Streaming adds latency but avoids the netcode desync that broke puzzles online." On a slow host upload, latency rises and the joiner's input feels sluggish, but the two RC cars stay in sync, which is the desync-safe property the path is for. The launch-window trade-off is bandwidth and input latency rather than puzzle desync.
+
+The worldeka launch-day checklist also lists Remote Play Together as a supported fallback category, so this path is anchored on two independent launch-week references rather than a single guide. Players who want the broader co-op framing can read the [Steam Remote Play Together section of the co-op page](/co-op/#steam-remote-play-together-single-pc-mirroring) for the community-tested caveat Firevolt has not first-party confirmed.` },
+      { id: "co-op-troubleshooting-friends-pass-vs-family", type: "prose", heading: `Friend's Pass vs Steam Family Sharing`, body: `Friend's Pass and Steam Family Sharing are two different Steam features and they are not interchangeable on WheelMates.
+
+- **Friend's Pass** is a free, host-owned DLC companion app ("WheelMates - Friend's Pass") that lets one guest join the host's two-player co-op session. The host owns the base game and the guest installs the companion app for free. The guest can join the host's session while the host is playing; the guest cannot host their own session and cannot progress solo through their own copy of the base game.
+- **Steam Family Sharing** lets a Family Sharing-enabled account play games from a shared library on the borrower's PC, but it does not by itself grant Friend's Pass co-op eligibility on WheelMates. The Steam Family Sharing feature page itself notes that "you may not be able to play some games" and that the borrower's access depends on the lender's current play state, and WheelMates' Friend's Pass mechanic specifically requires the companion app on the guest PC plus a host-owned session; a Family Sharing borrower is still treated as a separate user rather than as the Friend's Pass guest.
+
+The practical implication: do not try to use Family Sharing to grant co-op access. The supported path for two-player online co-op is Friend's Pass on the host's Steam account plus the companion app on the joiner's Steam account. A Family Sharing borrower can play solo on the host's library on their own machine, but they cannot use that arrangement as a substitute for Friend's Pass co-op.
+
+Players who want the broader Friend's Pass framing can read the [Friend's Pass section of the co-op page](/co-op/#friends-pass-how-a-free-guest-joins) for the host-owned one-way invite summary, and the [single-player page](/single-player/) for the solo path that does not require a second player at all.` },
+      { id: "co-op-troubleshooting-faq", type: "prose", heading: `Frequently Asked Questions`, body: `### Do both players need the same version number before co-op?
+
+Yes. The Sep 5, 2026 and Sep 7, 2026 Steam Community hotfix posts restate the same prerequisite: both the host and the joiner must be running the same build, with the version number visible in the lower-left corner of the main menu. Mismatched builds produce silent join failures rather than a clear error, so confirm the build numbers match before walking through any other troubleshooting step.
+
+### Does the joiner need to install a separate WheelMates app?
+
+Yes. Friend's Pass installs as a separate, free "WheelMates - Friend's Pass" companion app on the joiner's Steam account. Without the companion app, the joiner cannot connect to the host's session even when the host's lobby is open and the version numbers match.
+
+### Is the lobby-code path supported?
+
+Yes. The pinned "HOW TO INVITE A FRIEND WITH FRIEND'S PASS" Steam Community guide covers the Steam Friends invite path, and the lobby-code path is the supported fallback for cases where the two players are not on each other's Steam friends list. The lobby-code path is what the worldeka launch-day checklist documents under the "lobby-code" category.
+
+### What do I do if the lobby is stuck on "Waiting for Player"?
+
+Work through the launch-week troubleshooting order: confirm version match, verify local game files via Steam, restart both Steam clients, confirm the Friend's Pass companion app is installed on the joiner, disable VPN / strict NAT on the host, and re-create the lobby from the host's main menu. If the stall persists after step 6, switch to Steam Remote Play Together as the desync-safe fallback rather than continuing to retry the broken lobby.
+
+### Does Steam Remote Play Together work for WheelMates?
+
+Yes as a community-tested desync-safe mirror. Steam Remote Play Together mirrors the host's single-PC session to the joiner's controller, which sidesteps the built-in online co-op netcode desync that breaks puzzles. Firevolt has not published a first-party PC-to-PC Remote Play Together confirmation as of 2026-09-09; the togame.io article and the Steam Community "REMOTE PLAY TOGETHER" thread by KOBAYASHI both describe the procedure and its desync-safe property.
+
+### Is Friend's Pass the same as Steam Family Sharing?
+
+No. Friend's Pass is a host-owned companion app that lets one guest join the host's two-player co-op session. Steam Family Sharing grants a library license to a separate user but does not by itself grant Friend's Pass co-op eligibility on WheelMates, so Family Sharing should not be used as a substitute for Friend's Pass.
+
+### Why does my co-op session keep desyncing?
+
+The togame.io article documents that the built-in online co-op in WheelMates can desync the two RC cars because each car simulates on a different machine. The desync-free fallback for two players in different locations is Steam Remote Play Together, where both cars simulate on the host's single PC. Local split screen on one PC has the same property and is the other supported path. Continuing to retry the broken online lobby past the six-step troubleshooting order does not resolve the desync; switch to the Remote Play Together path instead.` },
+      { id: "co-op-troubleshooting-sources", type: "prose", heading: `Sources`, body: `- [Steam store page for WheelMates (AppID 3905450)](https://store.steampowered.com/app/3905450/WheelMates/) - \`official/store\` - checked 2026-09-10 - Online Co-op, Shared/Split Screen Co-op and Shared/Split Screen feature entries, Friend's Pass free-guest wording, 2-player framing, Full Controller Support, Family Sharing, Steam Cloud, and the "WheelMates - Friend's Pass" DLC companion app entry
+- [Steam Community hub for AppID 3905450](https://steamcommunity.com/app/3905450) - \`official/store\` - checked 2026-09-10 - Pinned "HOW TO INVITE A FRIEND WITH FRIEND'S PASS" setup guide (Sep 2, 2026, 6 replies), pinned LAUNCH FAQ (Sep 3, 2026, 13 replies), BUG REPORTS & FEEDBACK pinned thread, and the September 5 / September 7, 2026 hotfix posts that restate the version-matching prerequisite
+- [Steam Community discussions for AppID 3905450](https://steamcommunity.com/app/3905450/discussions) - \`official/store\` - checked 2026-09-10 - "Cant load saved game with friend" by nauGhty (2026-09-07), "REMOTE PLAY TOGETHER" by KOBAYASHI (13 replies as of 2026-09-09), and "Steam Remote Play? Please?" (8 replies, most recent Remote Play Together request) confirm the silent join failures and the open Steam Remote Play Together support question
+- [worldeka WheelMates Friend's Pass Connection Error troubleshooting checklist](https://worldeka.com/how-to-fix-wheelmates-friend-pass-connection-error-co-op-troubleshooting-guide-2026) - \`wiki/reference\` - checked 2026-09-10 - Version-mismatch check, file verification, lobby-code handling, VPN / strict NAT caveat, and Steam Remote Play Together fallback categories
+- [togame.io WheelMates Online Desync Split-Screen Workaround](https://togame.io/a/wheelmates-online-desync-split-screen-workaround) - \`wiki/reference\` - checked 2026-09-10 - Demo-era desync documentation, the Steam Remote Play Together desync-free fallback procedure, and the "exactly like couch co-op" rationale
+- [Steam store news tab for AppID 3905450](https://store.steampowered.com/news/app/3905450) - \`official/store\` - checked 2026-09-10 - Mirrors the September 5 and September 7, 2026 hotfix posts that the version-matching prerequisite restates
+- [Verified official X handle @wheelmatesgame](https://x.com/wheelmatesgame) - \`community/video\` - checked 2026-09-10 - Verified official channel for hotfix announcements that complement the Steam Community hub posts` },
+      { id: "co-op-troubleshooting-internal-links", type: "prose", heading: `Internal Link Requirements`, body: `- \`WheelMates co-op and split screen page\` -> \`/co-op/\` - High-level co-op framing; this troubleshooting page is the step-by-step complement for players who already know they want a two-player online co-op session
+- \`WheelMates patch notes page\` -> \`/patch-notes/\` - Lists the September 5 and September 7, 2026 hotfix posts that restate the version-matching prerequisite and close the local-coop regressions
+- \`WheelMates single player page\` -> \`/single-player/\` - The version-matching prerequisite and the Friend's Pass companion app caveat also affect players who launch solo with a second controller attached
+- \`WheelMates community and Discord page\` -> \`/community/\` - Where to coordinate co-op partners and file bug reports in the BUG REPORTS & FEEDBACK pinned thread if the troubleshooting order does not resolve a stall
+- \`WheelMates PC system requirements page\` -> \`/system-requirements/\` - The minimum PC tier needed for stable host upload on the Steam Remote Play Together fallback path
+- \`WheelMates release and platform status page\` -> \`/release/\` - Confirms the September 1, 2026 launch date that anchors the launch-week troubleshooting context` },
+      { id: "co-op-troubleshooting-fact-boundaries", type: "prose", heading: `Fact Boundaries`, body: `- Research date for every claim on this page: 2026-09-10.
+- Confirmed by the Steam store page: 2-player co-op, Online Co-op, Shared/Split Screen Co-op, Shared/Split Screen, Friend's Pass free-guest access, the "WheelMates - Friend's Pass" DLC companion app entry, Full Controller Support, Family Sharing, Steam Cloud.
+- Confirmed by the Sep 5, 2026 and Sep 7, 2026 Steam Community hotfix posts: version-matching prerequisite for every co-op session, with the version number visible in the lower-left corner of the main menu.
+- Confirmed by the pinned "HOW TO INVITE A FRIEND WITH FRIEND'S PASS" Steam Community guide (Sep 2, 2026): the Steam Friends invite flow is the canonical invite path, with the lobby-code path as the supported fallback when the players are not on each other's Steam friends list.
+- Steam Remote Play Together support for WheelMates: community-tested as of 2026-09-09; no first-party Firevolt or Steam confirmation of PC-to-PC Remote Play Together yet.
+- The worldeka launch-day troubleshooting checklist documents the version-mismatch, file verification, lobby-code, VPN, and Remote Play Together fallback categories; the togame.io article documents the demo-era desync and the Remote Play Together desync-free fallback procedure. Neither article is a first-party Firevolt source.
+- Crossplay with PS5, Xbox Series X|S, Xbox One, Nintendo Switch, Nintendo Switch 2: Not announced as of 2026-09-10.
+- Steam Family Sharing does not by itself grant Friend's Pass co-op eligibility on WheelMates; Friend's Pass is a separate host-owned companion app and the supported path for two-player online co-op.
+- Console versions of WheelMates (PS5, Xbox Series X|S, Xbox One, Nintendo Switch, Nintendo Switch 2) are Not announced as of 2026-09-10, so console co-op parity is not addressed.
+- The launch-week Steam Community discussions "Cant load saved game with friend", "REMOTE PLAY TOGETHER", and "Steam Remote Play? Please?" are community reports rather than Firevolt posts; treat them as user signals that complement the pinned guides and hotfix posts.` },
+    ],
+    faqIds: [],
+    relatedPageIds: [],
+    schemaTypes: ["Article", "BreadcrumbList"],
+    sourceStatus: "official",
+    lastReviewed: "2026-09-10",
   },
   {
     id: "fixed-steam-deck",
@@ -1415,7 +1568,8 @@ The NeuroVoids collision, missing Rope Swing for the joiner, repeated D-pad inpu
 - \`Puzzle walkthrough page\` -> \`/puzzle-walkthrough/\` - Mirrors the Backyard antenna puzzle and Garage button activation fix entries from the Sep 7, 2026 hotfix.
 - \`RC car gadgets page\` -> \`/rc-car-gadgets/\` - Mirrors the Phase Shifter visual fix and lightning visual fix entries from the Sep 7, 2026 hotfix.
 - \`Steam Deck page\` -> \`/steam-deck/\` - Mirrors the Phase Shifter visual fix and the new backend crash-reporting note from the Sep 7, 2026 hotfix.
-- \`Reviews and impressions page\` -> \`/reviews/\` - Tracks how the launch-week Steam user review band shifts in response to each hotfix.` },
+- \`Reviews and impressions page\` -> \`/reviews/\` - Tracks how the launch-week Steam user review band shifts in response to each hotfix.
+- \`Co-op setup and troubleshooting page\` -> \`/co-op-troubleshooting/\` - Step-by-step online co-op setup, Friend's Pass install, invite flow, "Waiting for Player" stall fixes, and the Steam Remote Play Together desync-safe fallback that the version-matching prerequisite restated on Sep 5 and Sep 7, 2026` },
       { id: "patch-notes-fact-boundaries", type: "prose", heading: `Fact Boundaries`, body: `- Each hotfix is date-stamped from the Steam Community hub news post as observed 2026-09-09. Future hotfixes will appear on the same Steam store news tab.
 - A public post-launch roadmap, console patch parity, and explicit save-format changes are Not announced as of 2026-09-09.
 - Console versions of WheelMates are Not announced as of 2026-09-09, so console patch parity is not addressed.

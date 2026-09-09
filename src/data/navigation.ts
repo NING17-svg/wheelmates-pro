@@ -28,6 +28,7 @@ export const footerNavigation: LocalizedNavigationItem[] = [
   { href: "/puzzle-walkthrough", labels: { "en-US": "Puzzle Walkthrough" } },
   { href: "/achievements", labels: { "en-US": "Achievements" } },
   { href: "/single-player", labels: { "en-US": "Single Player" } },
+  { href: "/co-op-troubleshooting", labels: { "en-US": "Co-op Setup & Troubleshooting" } },
   { href: "/patch-notes", labels: { "en-US": "Patch Notes" } },
   { href: "/community", labels: { "en-US": "Community" } },
   { href: "/reviews", labels: { "en-US": "Reviews & Impressions" } },

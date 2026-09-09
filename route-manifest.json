@@ -40,6 +40,16 @@
     }
   },
   {
+    "id": "fixed-co-op-troubleshooting",
+    "translationKey": "co-op-troubleshooting",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/co-op-troubleshooting",
+    "alternates": {
+      "en-US": "/co-op-troubleshooting"
+    }
+  },
+  {
     "id": "fixed-community-discord",
     "translationKey": "community-discord",
     "locale": "en-US",
