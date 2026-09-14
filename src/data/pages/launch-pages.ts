@@ -133,7 +133,7 @@ export const launchPages: PageContent[] = [
     presentation: {shell: "content", variant: "reading-right-rail"},
     h1: `WheelMates Release Date and Platform Status`,
     seoTitle: `WheelMates Release Date and Platform Status 2026`,
-    metaDescription: `The WheelMates release date is September 1, 2026 on Steam for Windows PC. Console versions on PS5, Xbox, and Switch are not announced as of 2026-09-05.`,
+    metaDescription: `The WheelMates release date is September 1, 2026 on Steam for Windows PC. PS5, Xbox Series X|S, and Nintendo Switch versions are targeted for the first half of 2027 per Firevolt's Aug 21, 2026 Steam Community Q&A.`,
     summary: `WheelMates Release Date and Platform Status`,
     hero: {
       subtitle: `WheelMates Release Date and Platform Status`,
@@ -141,12 +141,12 @@ export const launchPages: PageContent[] = [
     },
     quickAnswer: `WheelMates Release Date and Platform Status`,
     keyFacts: [
-      {label: "Research date", value: "2026-09-05"},
+      {label: "Research date", value: "2026-09-14"},
       {label: "Source tier", value: "Official Steam store + Firevolt channels"},
       {label: "Status", value: "complete"},
     ],
     modules: [
-      { id: "release-platforms-quick-answer", type: "prose", heading: `Quick answer`, body: `The WheelMates release date is September 1, 2026. Firevolt launched it on Steam under AppID 3905450, and the only confirmed platform is Windows 10/11 64-bit PC. PlayStation 5, Xbox Series X|S, Xbox One, Nintendo Switch, and Nintendo Switch 2 versions are not announced as of 2026-09-05, and no demo has been announced either. Buying on Steam is the only confirmed way to play.
+      { id: "release-platforms-quick-answer", type: "prose", heading: `Quick answer`, body: `The WheelMates release date is September 1, 2026. Firevolt launched it on Steam under AppID 3905450, and the only confirmed platform today is Windows 10/11 64-bit PC. PlayStation 5, Xbox Series X|S, and Nintendo Switch versions are targeted for the first half of 2027 per Firevolt's "Q&A with the Devs" Steam Community post on August 21, 2026. Xbox One, Nintendo Switch 2, PlayStation 4, macOS, and Linux versions are not announced as of 2026-09-14, and no demo has been announced either. Steam is the only confirmed way to play today.
 
 ## What is the WheelMates release date?
 
@@ -156,56 +156,72 @@ The game left early access status entirely out of the picture: it shipped as a f
 
 ## Where can I play WheelMates today?
 
-Steam for Windows is the only storefront and platform confirmed as of 2026-09-05.
+Steam for Windows is the only storefront and platform with a released build as of 2026-09-14.
 
-| Platform | Status as of 2026-09-05 |
+| Platform | Status as of 2026-09-14 |
 | --- | --- |
 | Windows 10/11 64-bit (Steam) | Available since September 1, 2026 |
-| PlayStation 5 | Not announced as of 2026-09-05 |
-| Xbox Series X\\|S | Not announced as of 2026-09-05 |
-| Xbox One | Not announced as of 2026-09-05 |
-| Nintendo Switch | Not announced as of 2026-09-05 |
-| Nintendo Switch 2 | Not announced as of 2026-09-05 |
-| macOS and Linux | Not announced as of 2026-09-05 |
+| PlayStation 5 | First half of 2027 (Firevolt "Q&A with the Devs", Aug 21, 2026 Steam Community) |
+| Xbox Series X\\|S | First half of 2027 (Firevolt "Q&A with the Devs", Aug 21, 2026 Steam Community) |
+| Xbox One | Not announced as of 2026-09-14 |
+| Nintendo Switch | First half of 2027 (Firevolt "Q&A with the Devs", Aug 21, 2026 Steam Community) |
+| Nintendo Switch 2 | Not announced as of 2026-09-14 |
+| PlayStation 4 | Not announced as of 2026-09-14 |
+| macOS and Linux | Not announced as of 2026-09-14 |
 
 Before you buy, check the [WheelMates PC system requirements](/system-requirements/) so you know whether your machine clears the minimum GTX 1060 / RX 580 line, and read [how WheelMates co-op and split screen work](/co-op/) if you plan to bring a friend along.
 
-## Consoles announced as of 2026-09-05
+## Console release window per Firevolt's Aug 21, 2026 Q&A
 
-Search suggestions are full of PS5, Xbox Series X, Xbox One, Switch, Switch 2, and even PS4 queries, which usually means players saw the game elsewhere and assumed a multi-platform launch. None of those versions are announced. Neither the Steam store page, wheelmatesgame.com, the verified X account, the YouTube channel, nor the Steam Community hub lists a console SKU, a store link, a pre-order, or a release window for any console as of 2026-09-05.
+Firevolt's "Q&A with the Devs" Steam Community post on August 21, 2026 is the first-party source for the first-half-of-2027 console window on PlayStation 5, Xbox Series X|S, and Nintendo Switch. The same post confirmed that the game is strictly 2-player co-op with no real solo mode, and third-party mirrors on updatemonitor.com, iscrossplay.com, and beta.gamespress.com (de) echo the same answer. Firevolt did not publish an exact release date, a price, or a console SKU page as of 2026-09-14, and the Aug 21 statement did not name Xbox One, PlayStation 4, or Nintendo Switch 2 as part of the console lineup.
 
-The answer would change if Firevolt posts a console announcement on its official channels or if a console storefront page appears. Until then, treat console dates circulating in forum threads as unconfirmed. Pricing on Steam is covered on the [WheelMates price and editions page](/price-editions/).` },
+Xbox One, PlayStation 4, and Nintendo Switch 2 stay Not announced as of 2026-09-14. Until Firevolt posts an additional announcement or a console storefront page appears, treat console release dates or prices circulating in forum threads as unconfirmed. Pricing on Steam is covered on the [WheelMates price and editions page](/price-editions/).` },
       { id: "release-platforms-faq", type: "prose", heading: `Frequently asked questions`, body: `### Is WheelMates on Game Pass or PS Plus?
 
-Not announced as of 2026-09-05. Firevolt sells the game directly on Steam and has not announced any subscription service availability.
+Not announced as of 2026-09-14. Firevolt sells the game directly on Steam and has not announced any subscription service availability.
 
 ### Is there a WheelMates demo?
 
-Not announced as of 2026-09-05. The Steam store page for AppID 3905450 shows no demo entry, and no playtest has been announced on the official channels.
+Not announced as of 2026-09-14. The Steam store page for AppID 3905450 shows no demo entry, and no playtest has been announced on the official channels.
 
 ### Did the release date ever move?
 
-The Steam store page and SteamDB both show September 1, 2026 as the release date, and no delay announcement appears on Firevolt's official channels as of 2026-09-05.` },
-      { id: "release-platforms-sources", type: "prose", heading: `Sources`, body: `- [Steam store page for WheelMates (AppID 3905450)](https://store.steampowered.com/app/3905450/WheelMates/) - \`official/store\` - checked 2026-09-05 - September 1, 2026 release date, Firevolt as developer and publisher, Windows 10/11 64-bit as the listed platform, absence of a demo entry
-- [Official Firevolt landing hub wheelmatesgame.com](https://www.wheelmatesgame.com/) - \`official/store\` - checked 2026-09-05 - official Steam cross-link and the absence of console store links
-- [Steam Community hub for AppID 3905450](https://steamcommunity.com/app/3905450) - \`official/store\` - checked 2026-09-05 - launch-day hotfix posts confirming a live release
-- [Verified official X handle @wheelmatesgame](https://x.com/wheelmatesgame) - \`community/video\` - checked 2026-09-05 - launch announcement matching the store date
-- [SteamDB AppID 3905450 snapshot](https://steamdb.info/app/3905450/) - \`wiki/reference\` - checked 2026-09-05 - AppID release metadata cross-check` },
-      { id: "release-platforms-internal-links", type: "prose", heading: `Internal Link Requirements`, body: `- \`WheelMates PC system requirements\` -> \`/system-requirements/\` - hardware check before buying on the confirmed platform
+The Steam store page and SteamDB both show September 1, 2026 as the release date, and no delay announcement appears on Firevolt's official channels as of 2026-09-14.
+
+### Is WheelMates coming to PS5, Xbox Series X|S, or Nintendo Switch?
+
+Yes. Firevolt's "Q&A with the Devs" Steam Community post on August 21, 2026 targets PlayStation 5, Xbox Series X|S, and Nintendo Switch for the first half of 2027. The same post is the source for the strictly 2-player co-op clarification. No exact console release date, pricing, or SKU page is published yet.` },
+      { id: "release-platforms-sources", type: "prose", heading: `Sources`, body: `- [Steam store page for WheelMates (AppID 3905450)](https://store.steampowered.com/app/3905450/WheelMates/) - \`official/store\` - checked 2026-09-14 - September 1, 2026 release date, Firevolt as developer and publisher, Windows 10/11 64-bit as the listed platform, absence of a demo entry
+- [Official Firevolt landing hub wheelmatesgame.com](https://www.wheelmatesgame.com/) - \`official/store\` - checked 2026-09-14 - official Steam cross-link and the absence of console store links
+- [Steam Community hub news tab for AppID 3905450](https://steamcommunity.com/app/3905450/allnews/) - \`official/store\` - checked 2026-09-14 - Firevolt's "Q&A with the Devs" Steam Community post on August 21, 2026 is the first-party source for the first-half-of-2027 console window on PlayStation 5, Xbox Series X|S, and Nintendo Switch, and for the strictly 2-player co-op clarification.
+- [Steam Community hub for AppID 3905450](https://steamcommunity.com/app/3905450) - \`official/store\` - checked 2026-09-14 - launch-day hotfix posts confirming a live release and the news feed carrying the Aug 21, 2026 Q&A entry
+- [Steam Community discussions "Friends Pass + Family Library" by cheetos (14 hr ago, 0 replies as of 2026-09-14)](https://steamcommunity.com/app/3905450/discussions) - \`community/video\` - checked 2026-09-14 - community question about platform and SKU eligibility that the Aug 21 Q&A first-party statement answers.
+- [Steam Community discussions "Looking for partner" by FatihMcFly (11 hr ago, 0 replies as of 2026-09-14)](https://steamcommunity.com/app/3905450/discussions) - \`community/video\` - checked 2026-09-14 - co-op-partner-finder thread that pairs with the strictly 2-player statement on platform-availability.
+- [Verified official X handle @wheelmatesgame](https://x.com/wheelmatesgame) - \`community/video\` - checked 2026-09-14 - launch announcement matching the store date
+- [updatemonitor.com WheelMates news mirror (Aug 21, 2026 Q&A)](https://www.updatemonitor.com/app/3905450/news/1841579228669120) - \`wiki/reference\` - checked 2026-09-14 - third-party mirror of the Aug 21, 2026 "Q&A with the Devs" Steam Community post for the first-half-of-2027 console window
+- [iscrossplay.com WheelMates crossplay reference](https://iscrossplay.com/games/wheelmates) - \`wiki/reference\` - checked 2026-09-14 - third-party mirror corroborating the Aug 21, 2026 console lineup
+- [beta.gamespress.com (de) WheelMates mirror](https://beta.gamespress.com/) - \`wiki/reference\` - checked 2026-09-14 - additional third-party mirror of the Aug 21, 2026 "Q&A with the Devs" post
+- [SteamDB AppID 3905450 snapshot](https://steamdb.info/app/3905450/) - \`wiki/reference\` - checked 2026-09-14 - AppID release metadata cross-check` },
+      { id: "release-platforms-internal-links", type: "prose", heading: `Internal Link Requirements`, body: `- \`WheelMates PC system requirements\` -> \`/system-requirements/\` - hardware check before buying on the confirmed platform; the Firevolt developer-confirmed Steam Deck support sentence is also pinned on the system requirements page
 - \`how WheelMates co-op and split screen work\` -> \`/co-op/\` - play modes available on the confirmed platform
-- \`WheelMates price and editions page\` -> \`/price-editions/\` - what the Steam release costs` },
-      { id: "release-platforms-fact-boundaries", type: "prose", heading: `Fact Boundaries`, body: `- Research date for every claim on this page: 2026-09-05.
+- \`WheelMates price and editions page\` -> \`/price-editions/\` - what the Steam release costs
+- \`WheelMates single-player page\` -> \`/single-player/\` - the Aug 21, 2026 "strictly 2-player co-op, no real solo mode" clarifier is anchored on the single-player page
+- \`WheelMates Steam Deck page\` -> \`/steam-deck/\` - mirrors the Firevolt developer-confirmed Steam Deck support sentence from the Aug 21, 2026 Q&A` },
+      { id: "release-platforms-fact-boundaries", type: "prose", heading: `Fact Boundaries`, body: `- Research date for every claim on this page: 2026-09-14.
 - Confirmed: release date September 1, 2026; Steam AppID 3905450; Firevolt as developer and publisher; Windows 10/11 64-bit as the listed platform.
-- PlayStation 5, Xbox Series X|S, Xbox One, Nintendo Switch, Nintendo Switch 2, and PlayStation 4 versions: Not announced as of 2026-09-05.
-- macOS and Linux builds: Not announced as of 2026-09-05.
-- Demo, playtest, and subscription-service availability: Not announced as of 2026-09-05.
+- PlayStation 5, Xbox Series X|S, and Nintendo Switch versions: first half of 2027 per Firevolt's "Q&A with the Devs" Steam Community post on August 21, 2026. No exact console release date, pricing, or SKU page is published as of 2026-09-14.
+- Xbox One, Nintendo Switch 2, and PlayStation 4 versions: Not announced as of 2026-09-14.
+- macOS and Linux builds: Not announced as of 2026-09-14.
+- Demo, playtest, and subscription-service availability: Not announced as of 2026-09-14.
+- Crossplay between PC and any console: Not announced as of 2026-09-14, even with the Aug 21, 2026 first-party console statement.
+- Strictly 2-player co-op with no real solo mode: first-party statement from the Aug 21, 2026 "Q&A with the Devs" Steam Community post.
 - This status changes only when the Steam store page or an official Firevolt channel publishes the version in question.` },
     ],
     faqIds: [],
     relatedPageIds: [],
     schemaTypes: ["Article", "BreadcrumbList"],
     sourceStatus: "official",
-    lastReviewed: "2026-09-05",
+    lastReviewed: "2026-09-14",
   },
   {
     id: "fixed-system-requirements",
@@ -218,7 +234,7 @@ The Steam store page and SteamDB both show September 1, 2026 as the release date
     presentation: {shell: "content", variant: "wide-reference"},
     h1: `WheelMates System Requirements for Windows PC`,
     seoTitle: `WheelMates System Requirements for PC (Min + Rec)`,
-    metaDescription: `WheelMates system requirements from Steam: GTX 1060 or RX 580 and 8 GB RAM minimum, RTX 3060 or RX 6600 XT and 16 GB recommended, 15 GB storage.`,
+    metaDescription: `WheelMates system requirements from Steam: GTX 1060 or RX 580 and 8 GB RAM minimum, RTX 3060 or RX 6600 XT and 16 GB recommended, 15 GB storage. Steam Deck support is developer-confirmed by Firevolt's Aug 21, 2026 Q&A but no Valve Verified banner as of 2026-09-14.`,
     summary: `WheelMates System Requirements for Windows PC`,
     hero: {
       subtitle: `WheelMates System Requirements for Windows PC`,
@@ -226,7 +242,7 @@ The Steam store page and SteamDB both show September 1, 2026 as the release date
     },
     quickAnswer: `WheelMates System Requirements for Windows PC`,
     keyFacts: [
-      {label: "Research date", value: "2026-09-05"},
+      {label: "Research date", value: "2026-09-14"},
       {label: "Source tier", value: "Official Steam store + Firevolt channels"},
       {label: "Status", value: "complete"},
     ],
@@ -276,42 +292,47 @@ Steam features listed alongside the requirements include Steam Cloud, Steam Achi
 
 ## Mac, Linux, and Steam Deck support
 
-macOS and Linux builds are not announced as of 2026-09-05, and the Steam store page publishes no Mac or Linux requirement tables. A Steam Deck compatibility rating had not been applied to the build as of 2026-09-05, so the game is not yet labeled Verified, Playable, or Unsupported. The current status and the caveats around handheld play are tracked on the [WheelMates Steam Deck compatibility page](/steam-deck/).
+macOS and Linux builds are not announced as of 2026-09-14, and the Steam store page publishes no Mac or Linux requirement tables. Steam Deck support is developer-confirmed by Firevolt's "Q&A with the Devs" Steam Community post on August 21, 2026, but the Steam Deck Verified / Playable / Unsupported banner has not been applied to the build as of 2026-09-14, so the game is not yet labeled Verified, Playable, or Unsupported. Valve assigns the banner rather than the developer, so the developer stance and the Valve banner stance diverge until Valve processes a build. The current status and the caveats around handheld play are tracked on the [WheelMates Steam Deck compatibility page](/steam-deck/).
 
-If you are still deciding whether the game runs on your setup at all, the [WheelMates release date and platform status](/release/) page lists every confirmed and unconfirmed platform, and the [WheelMates controller support notes](/controller-support/) cover gamepad behavior including the DualSense and DualShock 4 issues players reported during launch week.` },
+If you are still deciding whether the game runs on your setup at all, the [WheelMates release date and platform status](/release/) page lists every confirmed and unconfirmed platform (including the Aug 21, 2026 first-half-of-2027 console window on PS5, Xbox Series X|S, and Nintendo Switch), and the [WheelMates controller support notes](/controller-support/) cover gamepad behavior including the DualSense and DualShock 4 issues players reported during launch week.` },
       { id: "system-requirements-faq", type: "prose", heading: `Frequently asked questions`, body: `### Will a GTX 1060 run WheelMates?
 
 Yes, a GeForce GTX 1060 is the minimum NVIDIA card listed on the Steam store page, with the Radeon RX 580 as the AMD equivalent. Firevolt does not state which resolution or frame rate that tier targets.
 
 ### How much space does WheelMates need?
 
-15 GB of available storage on both the minimum and recommended lists as of 2026-09-05.
+15 GB of available storage on both the minimum and recommended lists as of 2026-09-14.
 
 ### Are there Mac or Linux system requirements?
 
-Not announced as of 2026-09-05. The Steam store page publishes Windows requirements only.
+Not announced as of 2026-09-14. The Steam store page publishes Windows requirements only.
 
 ### Is 8 GB of RAM enough?
 
-8 GB is the published minimum and 16 GB is the recommended figure. Local shared screen sessions and background applications are the situations where the extra memory matters most.` },
-      { id: "system-requirements-sources", type: "prose", heading: `Sources`, body: `- [Steam store page for WheelMates (AppID 3905450)](https://store.steampowered.com/app/3905450/WheelMates/) - \`official/store\` - checked 2026-09-05 - minimum and recommended requirement tables quoted verbatim, DirectX 12, 15 GB storage, Windows-only listing, Steam Cloud, Family Sharing, Full Controller Support
-- [SteamDB AppID 3905450 snapshot](https://steamdb.info/app/3905450/) - \`wiki/reference\` - checked 2026-09-05 - cross-check of the stored requirement values and the absence of Mac or Linux depots
-- [Steam Community hub for AppID 3905450](https://steamcommunity.com/app/3905450) - \`official/store\` - checked 2026-09-05 - launch-week hotfix posts covering startup and performance reports` },
-      { id: "system-requirements-internal-links", type: "prose", heading: `Internal Link Requirements`, body: `- \`WheelMates Steam Deck compatibility page\` -> \`/steam-deck/\` - handheld PC playability status
-- \`WheelMates release date and platform status\` -> \`/release/\` - confirmed and unconfirmed platforms
+8 GB is the published minimum and 16 GB is the recommended figure. Local shared screen sessions and background applications are the situations where the extra memory matters most.
+
+### Does Steam Deck run WheelMates?
+
+Steam Deck support is developer-confirmed by Firevolt's "Q&A with the Devs" Steam Community post on August 21, 2026. The Steam Deck Verified / Playable / Unsupported banner has not been applied as of 2026-09-14, so the game is not yet labeled by Valve. Player reports describe the game launching on Steam Deck OLED, but the official Valve rating is still pending.` },
+      { id: "system-requirements-sources", type: "prose", heading: `Sources`, body: `- [Steam store page for WheelMates (AppID 3905450)](https://store.steampowered.com/app/3905450/WheelMates/) - \`official/store\` - checked 2026-09-14 - minimum and recommended requirement tables quoted verbatim, DirectX 12, 15 GB storage, Windows-only listing, Steam Cloud, Family Sharing, Full Controller Support
+- [Steam Community hub news tab for AppID 3905450](https://steamcommunity.com/app/3905450/allnews/) - \`official/store\` - checked 2026-09-14 - Firevolt's "Q&A with the Devs" Steam Community post on August 21, 2026 developer-confirms Steam Deck support.
+- [SteamDB AppID 3905450 snapshot](https://steamdb.info/app/3905450/) - \`wiki/reference\` - checked 2026-09-14 - cross-check of the stored requirement values and the absence of Mac or Linux depots
+- [Steam Community hub for AppID 3905450](https://steamcommunity.com/app/3905450) - \`official/store\` - checked 2026-09-14 - launch-week hotfix posts covering startup and performance reports` },
+      { id: "system-requirements-internal-links", type: "prose", heading: `Internal Link Requirements`, body: `- \`WheelMates Steam Deck compatibility page\` -> \`/steam-deck/\` - handheld PC playability status and the Firevolt developer-confirmed Steam Deck support sentence
+- \`WheelMates release date and platform status\` -> \`/release/\` - confirmed and unconfirmed platforms, including the Aug 21, 2026 first-half-of-2027 console window
 - \`WheelMates controller support notes\` -> \`/controller-support/\` - gamepad compatibility after the hardware check` },
-      { id: "system-requirements-fact-boundaries", type: "prose", heading: `Fact Boundaries`, body: `- Research date for every specification on this page: 2026-09-05.
+      { id: "system-requirements-fact-boundaries", type: "prose", heading: `Fact Boundaries`, body: `- Research date for every specification on this page: 2026-09-14.
 - Minimum and recommended tables are quoted verbatim from the Steam store page for AppID 3905450 and are not adjusted, estimated, or extrapolated.
-- Target resolution and frame rate for either tier: not published by Firevolt as of 2026-09-05.
-- macOS and Linux support: Not announced as of 2026-09-05.
-- Steam Deck compatibility rating: not yet labeled as of 2026-09-05.
+- Target resolution and frame rate for either tier: not published by Firevolt as of 2026-09-14.
+- macOS and Linux support: Not announced as of 2026-09-14.
+- Steam Deck compatibility rating: not yet labeled by Valve as of 2026-09-14, but developer-confirmed by Firevolt's "Q&A with the Devs" Steam Community post on August 21, 2026.
 - No hands-on benchmark was performed for this page; all values come from the published store listing.` },
     ],
     faqIds: [],
     relatedPageIds: [],
     schemaTypes: ["Article", "BreadcrumbList"],
     sourceStatus: "official",
-    lastReviewed: "2026-09-05",
+    lastReviewed: "2026-09-14",
   },
   {
     id: "fixed-price-editions",
@@ -414,7 +435,7 @@ No future discount has been announced as of 2026-09-05 beyond the launch-week pr
     },
     quickAnswer: `WheelMates Split Screen and Online Co-op Modes`,
     keyFacts: [
-      {label: "Research date", value: "2026-09-09"},
+      {label: "Research date", value: "2026-09-14"},
       {label: "Source tier", value: "Official Steam store + Firevolt channels"},
       {label: "Status", value: "complete"},
     ],
@@ -457,9 +478,9 @@ The Sep 9, 2026 "REMOTE PLAY TOGETHER" Steam Community discussion thread by KOBA
 
 The LAUNCH FAQ pinned on the Steam Community hub restates a long-standing caveat: pressing A on a second local controller at the title screen during single-controller sessions has historically triggered a fatal error. Firevolt published a Sep 1, 2026 follow-up hotfix that documented the same warning, and the Sep 5, 2026 "Hotfix: Local Co-op Fatal Error" closed the local co-op branch of that crash. The Sep 7, 2026 "Hotfix: Co-op, Progression, and Performance Improvements" post then tightened the "Press any key" main-menu freeze path that some local co-op players still saw when returning to the title screen from a local co-op session. Until the host confirms the latest Steam build is installed, the safe solo-side workaround is to unplug the second controller before launching the game or to start with only one controller attached.
 
-## Cars-continuing-to-move-while-Settings-or-Journal-open regression
+## Cars-continuing-to-move-while-Settings-or-Journal-open regression and Sep 9 local-coop antenna display fix
 
-A second local-coop regression reported in the Sep 7, 2026 Steam Community hub "Press any key" discussion thread left cars continuing to move in the background after a local co-op player opened the Settings or Journal screen. That soft lock is closed by the Sep 7, 2026 "Hotfix: Co-op, Progression, and Performance Improvements" entry, so local co-op players on the latest Steam build should no longer see the phantom car motion after updating. The Sep 7 hotfix post is the canonical source for the fix, and the [WheelMates patch notes page](/patch-notes/) lists the same entry alongside the Backyard performance and antenna puzzle fixes.` },
+A second local-coop regression reported in the Sep 7, 2026 Steam Community hub "Press any key" discussion thread left cars continuing to move in the background after a local co-op player opened the Settings or Journal screen. That soft lock is closed by the Sep 7, 2026 "Hotfix: Co-op, Progression, and Performance Improvements" entry, so local co-op players on the latest Steam build should no longer see the phantom car motion after updating. The Sep 9, 2026 "Hotfix: Puzzle Progression and Local Co-op Fixes" entry then ships the local-coop antenna display fix that the "Controllers still not working in local game" thread by Foxx (16 hr ago as of 2026-09-14) surfaced, so the antenna HUD that some local co-op players saw missing after the Sep 7 build should now render on the latest Steam build. Both Sep 7 and Sep 9 hotfix posts are the canonical sources for their respective fixes, and the [WheelMates patch notes page](/patch-notes/) lists each entry alongside the Backyard performance, antenna puzzle, and save-game visual fixes.` },
       { id: "co-op-split-screen-faq", type: "prose", heading: `Frequently asked questions`, body: `### Can three or four players join?
 
 No. The game is built for two players; the Steam store describes a 2-player co-op driving adventure and lists no larger party size.
@@ -484,6 +505,10 @@ The Sep 5, 2026 hotfix resolved the fatal error some players hit when launching 
 
 The Sep 7, 2026 hotfix closed two local-coop regressions: the "Press any key" main-menu freeze that some local co-op players hit when returning to the title screen, and the soft lock where cars kept moving in the background while a player had the Settings or Journal screen open. The Sep 7 post also adds the same version-matching prerequisite that the Sep 5 post introduced, so both host and joiner should confirm the version number in the lower-left corner of the main menu before launching a co-op session.
 
+### What did the Sep 9, 2026 "Hotfix: Puzzle Progression and Local Co-op Fixes" change for co-op?
+
+The Sep 9, 2026 hotfix ships the local-coop antenna display fix that the "Controllers still not working in local game" thread by Foxx (16 hr ago as of 2026-09-14) surfaced. Players who saw a missing or garbled antenna HUD during local co-op after the Sep 7 build should update to the latest Steam build and reload the last save to clear the regression. The Sep 9 entry also closes the Backyard soft lock and restores save-game visuals, both of which affect co-op and solo runs equally.
+
 ### Does Steam Remote Play Together work for WheelMates?
 
 WheelMates supports local split screen on one PC. Steam Remote Play Together typically mirrors that single-PC session to a friend, but Firevolt has not published a first-party confirmation that WheelMates supports PC-to-PC Remote Play Together as of 2026-09-09. Treat the path as community-tested rather than officially confirmed until a Steam Community hub post or store update says otherwise.
@@ -491,31 +516,33 @@ WheelMates supports local split screen on one PC. Steam Remote Play Together typ
 ### Do my partner and I need the same version number before co-op?
 
 Yes. Firevolt's Sep 5 and Sep 7, 2026 hotfix posts both restate the prerequisite that both players be on the same build before joining an online session. Mismatched builds produce silent join failures rather than a clear error, so confirm the host and the joiner are both on the latest Steam update and compare the version number in the lower-left corner of the main menu before launching co-op.` },
-      { id: "co-op-split-screen-sources", type: "prose", heading: `Sources`, body: `- [Steam store page for WheelMates (AppID 3905450)](https://store.steampowered.com/app/3905450/WheelMates/) - \`official/store\` - checked 2026-09-09 - Online Co-op, Shared/Split Screen Co-op and Shared/Split Screen feature entries, Friend's Pass free-guest wording, 2-player framing, Full Controller Support, Family Sharing, Steam Cloud
-- [Steam Community hub for AppID 3905450](https://steamcommunity.com/app/3905450) - \`official/store\` - checked 2026-09-09 - pinned Friend's Pass invite guide, the September 2, 4, 5, and 7, 2026 hotfix posts covering progression, co-op, and local-coop fixes, with the September 7, 2026 "Hotfix: Co-op, Progression, and Performance Improvements" entry closing the "Press any key" main-menu freeze and the cars-continuing-to-move-while-Settings-or-Journal-open local-coop regression
-- [Steam Community discussions for AppID 3905450](https://steamcommunity.com/app/3905450/discussions) - \`official/store\` - checked 2026-09-09 - "Pressing A on a second controller in Local play mode gives a fatal error" by Ermano (13 replies on 2026-09-07), "Cant load saved game with friend" by nauGhty (14 min ago on 2026-09-07), and "REMOTE PLAY TOGETHER" by KOBAYASHI (13 replies, 8 hr ago as of 2026-09-09) confirm the second-controller fatal error, the co-op session-load questions, and the open Steam Remote Play Together support question
-- [Official Firevolt landing hub wheelmatesgame.com](https://www.wheelmatesgame.com/) - \`official/store\` - checked 2026-09-09 - official co-op framing and channel cross-links
-- [Official Discord invite](https://discord.com/invite/wheelmates) - \`community/video\` - checked 2026-09-09 - where players coordinate co-op sessions and report connection problems` },
+      { id: "co-op-split-screen-sources", type: "prose", heading: `Sources`, body: `- [Steam store page for WheelMates (AppID 3905450)](https://store.steampowered.com/app/3905450/WheelMates/) - \`official/store\` - checked 2026-09-14 - Online Co-op, Shared/Split Screen Co-op and Shared/Split Screen feature entries, Friend's Pass free-guest wording, 2-player framing, Full Controller Support, Family Sharing, Steam Cloud
+- [Steam Community hub for AppID 3905450](https://steamcommunity.com/app/3905450) - \`official/store\` - checked 2026-09-14 - pinned Friend's Pass invite guide, the September 2, 4, 5, 7, and 9, 2026 hotfix posts covering progression, co-op, and local-coop fixes, with the September 7, 2026 "Hotfix: Co-op, Progression, and Performance Improvements" entry closing the "Press any key" main-menu freeze and the cars-continuing-to-move-while-Settings-or-Journal-open local-coop regression, and the September 9, 2026 "Hotfix: Puzzle Progression and Local Co-op Fixes" entry shipping the local-coop antenna display fix
+- [Steam Community hub news tab for AppID 3905450](https://steamcommunity.com/app/3905450/allnews/) - \`official/store\` - checked 2026-09-14 - The Sep 9, 2026 "Hotfix: Puzzle Progression and Local Co-op Fixes" post is the most recent Firevolt announcement above the Sep 7 entry.
+- [Steam Community discussions for AppID 3905450](https://steamcommunity.com/app/3905450/discussions) - \`official/store\` - checked 2026-09-14 - "Pressing A on a second controller in Local play mode gives a fatal error" by Ermano (13 replies on 2026-09-07), "Cant load saved game with friend" by nauGhty (8 hr ago, 2 replies as of 2026-09-14), "REMOTE PLAY TOGETHER" by KOBAYASHI (13 replies as of 2026-09-09), and "Controllers still not working in local game" by Foxx (16 hr ago as of 2026-09-14) confirm the second-controller fatal error, the co-op session-load questions, the open Steam Remote Play Together support question, and the local-coop antenna display regression
+- [Official Firevolt landing hub wheelmatesgame.com](https://www.wheelmatesgame.com/) - \`official/store\` - checked 2026-09-14 - official co-op framing and channel cross-links
+- [Official Discord invite](https://discord.com/invite/wheelmates) - \`community/video\` - checked 2026-09-14 - where players coordinate co-op sessions and report connection problems` },
       { id: "co-op-split-screen-internal-links", type: "prose", heading: `Internal Link Requirements`, body: `- \`WheelMates release and platform status page\` -> \`/release/\` - which platforms co-op is available on
 - \`WheelMates single-player page\` -> \`/single-player/\` - playing without a partner
 - \`WheelMates community and Discord page\` -> \`/community/\` - where to find a partner or report a connection issue
-- \`WheelMates patch notes page\` -> \`/patch-notes/\` - dated co-op and progression fixes including the Sep 5, 2026 "Hotfix: Local Co-op Fatal Error" and the Sep 7, 2026 "Hotfix: Co-op, Progression, and Performance Improvements"
-- \`WheelMates co-op setup and troubleshooting page\` -> \`/co-op-troubleshooting/\` - step-by-step online co-op setup, Friend's Pass install, invite flow, "Waiting for Player" stall fixes, and the Steam Remote Play Together desync-safe fallback` },
-      { id: "co-op-split-screen-fact-boundaries", type: "prose", heading: `Fact Boundaries`, body: `- Research date for every claim on this page: 2026-09-09.
+- \`WheelMates patch notes page\` -> \`/patch-notes/\` - dated co-op and progression fixes including the Sep 5, 2026 "Hotfix: Local Co-op Fatal Error", the Sep 7, 2026 "Hotfix: Co-op, Progression, and Performance Improvements", and the Sep 9, 2026 "Hotfix: Puzzle Progression and Local Co-op Fixes"
+- \`WheelMates co-op setup and troubleshooting page\` -> \`/co-op-troubleshooting/\` - step-by-step online co-op setup, Friend's Pass install, invite flow, "Waiting for Player" stall fixes, the save-game visual restoration reload step added on Sep 9, and the Steam Remote Play Together desync-safe fallback` },
+      { id: "co-op-split-screen-fact-boundaries", type: "prose", heading: `Fact Boundaries`, body: `- Research date for every claim on this page: 2026-09-14.
 - Confirmed by the Steam store page: 2-player co-op, Online Co-op, Shared/Split Screen Co-op, Shared/Split Screen, Friend's Pass free-guest access, Full Controller Support, Family Sharing, single-player support.
 - Confirmed by the Sep 5, 2026 Steam Community hub post: the Local Co-op Fatal Error hotfix shipped, and the version-matching prerequisite (same build on host and joiner, with the version number visible in the lower-left corner of the main menu) applies to every co-op session.
 - Confirmed by the Sep 7, 2026 Steam Community hub post: the "Hotfix: Co-op, Progression, and Performance Improvements" closed the "Press any key" main-menu freeze when returning from local co-op and the soft lock where cars kept moving while the Settings or Journal screen was open. The same post repeats the version-matching prerequisite for every co-op session.
-- Crossplay between PC and PlayStation 5, Xbox Series X|S, Xbox One, Nintendo Switch, or Nintendo Switch 2: Not announced as of 2026-09-09.
-- Console versions themselves: Not announced as of 2026-09-09.
+- Confirmed by the Sep 9, 2026 Steam Community hub post: the "Hotfix: Puzzle Progression and Local Co-op Fixes" ships the local-coop antenna display fix that the "Controllers still not working in local game" thread by Foxx surfaced, alongside the Backyard soft-lock close and the save-game visual restoration.
+- Crossplay between PC and PlayStation 5, Xbox Series X|S, Xbox One, Nintendo Switch, or Nintendo Switch 2: Not announced as of 2026-09-14.
+- Console versions themselves: Not announced as of 2026-09-14.
 - Steam Remote Play Together support for WheelMates: community-tested as of 2026-09-09; no first-party Firevolt or Steam confirmation of PC-to-PC Remote Play Together yet.
-- Exact Friend's Pass eligibility rules beyond the pinned Steam Community guide: not documented as of 2026-09-09.
-- Party sizes larger than two players and a dedicated shared screen performance target: not published as of 2026-09-09.` },
+- Exact Friend's Pass eligibility rules beyond the pinned Steam Community guide: not documented as of 2026-09-14.
+- Party sizes larger than two players and a dedicated shared screen performance target: not published as of 2026-09-14.` },
     ],
     faqIds: [],
     relatedPageIds: [],
     schemaTypes: ["Article", "BreadcrumbList"],
     sourceStatus: "official",
-    lastReviewed: "2026-09-09",
+    lastReviewed: "2026-09-14",
   },
   {
     id: "fixed-co-op-troubleshooting",
@@ -536,12 +563,12 @@ Yes. Firevolt's Sep 5 and Sep 7, 2026 hotfix posts both restate the prerequisite
     },
     quickAnswer: `WheelMates Co-op Session Setup and Troubleshooting Guide`,
     keyFacts: [
-      {label: "Research date", value: "2026-09-10"},
+      {label: "Research date", value: "2026-09-14"},
       {label: "Source tier", value: "Official Steam store + Firevolt channels + Steam Community pinned guides"},
       {label: "Status", value: "complete"},
     ],
     modules: [
-      { id: "co-op-troubleshooting-quick-answer", type: "prose", heading: `Quick Answer`, body: `Online co-op in WheelMates runs between two Steam copies and is gated by a recurring version-matching prerequisite: both the host and the joiner must be running the same build, with the version number visible in the lower-left corner of the main menu. The companion "WheelMates - Friend's Pass" app installs for free on the joiner's Steam account so the guest does not need to buy the base game. The launch-day invite flow is documented in the pinned "HOW TO INVITE A FRIEND WITH FRIEND'S PASS" Steam Community guide (Sep 2, 2026), with a Steam Friends invite path as the default and a lobby-code path as the supported fallback when the players are not on each other's Steam friends list. If a lobby sticks on "Waiting for Player" or "Waiting for Friend", the launch-week troubleshooting order is: confirm version match, verify local game files via Steam, restart both Steam clients, confirm the Friend's Pass companion app is installed on the joiner, disable VPN / strict NAT on the host, then re-create the lobby. If the stall persists, Steam Remote Play Together is the desync-safe mirror that runs the host's local session and assigns Player 2 to the joiner's controller. Friend's Pass and Steam Family Sharing are not interchangeable: Friend's Pass is a one-way host-owned invite for two-player co-op only, while Family Sharing grants a separate library license that does not by itself grant Friend's Pass co-op eligibility on this title.
+      { id: "co-op-troubleshooting-quick-answer", type: "prose", heading: `Quick Answer`, body: `Online co-op in WheelMates runs between two Steam copies and is gated by a recurring version-matching prerequisite: both the host and the joiner must be running the same build, with the version number visible in the lower-left corner of the main menu. The companion "WheelMates - Friend's Pass" app installs for free on the joiner's Steam account so the guest does not need to buy the base game. The launch-day invite flow is documented in the pinned "HOW TO INVITE A FRIEND WITH FRIEND'S PASS" Steam Community guide (Sep 2, 2026), with a Steam Friends invite path as the default and a lobby-code path as the supported fallback when the players are not on each other's Steam friends list. If a lobby sticks on "Waiting for Player" or "Waiting for Friend", the launch-week troubleshooting order is: confirm version match, verify local game files via Steam, restart both Steam clients, confirm the Friend's Pass companion app is installed on the joiner, disable VPN / strict NAT on the host, re-create the lobby, then reload the save-game visual state on the host and joiner to pick up the Sep 9, 2026 save-game visual restoration fix. If the stall persists, Steam Remote Play Together is the desync-safe mirror that runs the host's local session and assigns Player 2 to the joiner's controller. Friend's Pass and Steam Family Sharing are not interchangeable: Friend's Pass is a one-way host-owned invite for two-player co-op only, while Family Sharing grants a separate library license that does not by itself grant Friend's Pass co-op eligibility on this title.
 
 ## What this page covers
 
@@ -588,8 +615,9 @@ If neither path connects, the worldeka launch-day troubleshooting checklist docu
 4. **Confirm the Friend's Pass companion app is installed on the joiner's PC** — without the "WheelMates - Friend's Pass" companion app, the joiner will not see the host's session. The [Friend's Pass companion app install](#friends-pass-companion-app-install-on-the-guest-pc) section above is the source.
 5. **Disable VPN / strict NAT on the host** — community reports on the worldeka checklist flag that a VPN on the host can drop the inbound connection silently. Test by disabling the VPN on the host (or temporarily switching to a wired connection on the host's network).
 6. **Restart the lobby from the host's main menu** — leave the lobby, return to the main menu, and re-create the session. This clears any cached lobby state that survived the join attempt.
+7. **Reload the save-game visual state on host and joiner (Sep 9, 2026 hotfix)** — the Sep 9, 2026 "Hotfix: Puzzle Progression and Local Co-op Fixes" entry ships the save-game visual restoration fix that the "Cant load saved game with friend." thread by nauGhty (8 hr ago, 2 replies as of 2026-09-14) surfaced. If the joiner is seeing a missing antenna display, a black Backyard panel, or any other visual mismatch after the join, fully close WheelMates on both machines, reopen, and reload the last save once to pick up the restored visual state on the latest Steam build.
 
-If the stall persists after step 6, the next safe step is the Steam Remote Play Together fallback below rather than continuing to retry the broken lobby. Repeating the built-in online co-op path past step 6 does not resolve the launch-week netcode desync that the togame.io article documents and the Steam Community "REMOTE PLAY TOGETHER" thread by KOBAYASHI (13 replies as of 2026-09-09) tracks.` },
+If the stall persists after step 7, the next safe step is the Steam Remote Play Together fallback below rather than continuing to retry the broken lobby. Repeating the built-in online co-op path past step 7 does not resolve the launch-week netcode desync that the togame.io article documents and the Steam Community "REMOTE PLAY TOGETHER" thread by KOBAYASHI (13 replies as of 2026-09-09) tracks.` },
       { id: "co-op-troubleshooting-remote-play-together", type: "prose", heading: `Steam Remote Play Together desync-safe fallback`, body: `WheelMates is built around local split-screen physics on a single PC, so the desync-free co-op fallback for two players in different locations is Steam Remote Play Together, which mirrors the host's single-PC session to the joiner's controller rather than bridging two PCs over the internet. This path is community-tested as of 2026-09-09; Firevolt has not published a first-party confirmation of PC-to-PC Remote Play Together for WheelMates, but the Steam Community "REMOTE PLAY TOGETHER" discussion thread by KOBAYASHI (13 replies as of 2026-09-09) and the "Steam Remote Play? Please?" thread (8 replies, most recent Remote Play Together request) show launch-week players using it as the desync-safe mirror.
 
 The concrete procedure, distilled from the togame.io "WheelMates Online Desync Split-Screen Workaround" article, is:
@@ -626,7 +654,7 @@ Yes. The pinned "HOW TO INVITE A FRIEND WITH FRIEND'S PASS" Steam Community guid
 
 ### What do I do if the lobby is stuck on "Waiting for Player"?
 
-Work through the launch-week troubleshooting order: confirm version match, verify local game files via Steam, restart both Steam clients, confirm the Friend's Pass companion app is installed on the joiner, disable VPN / strict NAT on the host, and re-create the lobby from the host's main menu. If the stall persists after step 6, switch to Steam Remote Play Together as the desync-safe fallback rather than continuing to retry the broken lobby.
+Work through the launch-week troubleshooting order: confirm version match, verify local game files via Steam, restart both Steam clients, confirm the Friend's Pass companion app is installed on the joiner, disable VPN / strict NAT on the host, re-create the lobby from the host's main menu, then reload the save-game visual state on host and joiner to pick up the Sep 9, 2026 "Hotfix: Puzzle Progression and Local Co-op Fixes" save-game visual restoration. If the stall persists after step 7, switch to Steam Remote Play Together as the desync-safe fallback rather than continuing to retry the broken lobby.
 
 ### Does Steam Remote Play Together work for WheelMates?
 
@@ -639,35 +667,37 @@ No. Friend's Pass is a host-owned companion app that lets one guest join the hos
 ### Why does my co-op session keep desyncing?
 
 The togame.io article documents that the built-in online co-op in WheelMates can desync the two RC cars because each car simulates on a different machine. The desync-free fallback for two players in different locations is Steam Remote Play Together, where both cars simulate on the host's single PC. Local split screen on one PC has the same property and is the other supported path. Continuing to retry the broken online lobby past the six-step troubleshooting order does not resolve the desync; switch to the Remote Play Together path instead.` },
-      { id: "co-op-troubleshooting-sources", type: "prose", heading: `Sources`, body: `- [Steam store page for WheelMates (AppID 3905450)](https://store.steampowered.com/app/3905450/WheelMates/) - \`official/store\` - checked 2026-09-10 - Online Co-op, Shared/Split Screen Co-op and Shared/Split Screen feature entries, Friend's Pass free-guest wording, 2-player framing, Full Controller Support, Family Sharing, Steam Cloud, and the "WheelMates - Friend's Pass" DLC companion app entry
-- [Steam Community hub for AppID 3905450](https://steamcommunity.com/app/3905450) - \`official/store\` - checked 2026-09-10 - Pinned "HOW TO INVITE A FRIEND WITH FRIEND'S PASS" setup guide (Sep 2, 2026, 6 replies), pinned LAUNCH FAQ (Sep 3, 2026, 13 replies), BUG REPORTS & FEEDBACK pinned thread, and the September 5 / September 7, 2026 hotfix posts that restate the version-matching prerequisite
-- [Steam Community discussions for AppID 3905450](https://steamcommunity.com/app/3905450/discussions) - \`official/store\` - checked 2026-09-10 - "Cant load saved game with friend" by nauGhty (2026-09-07), "REMOTE PLAY TOGETHER" by KOBAYASHI (13 replies as of 2026-09-09), and "Steam Remote Play? Please?" (8 replies, most recent Remote Play Together request) confirm the silent join failures and the open Steam Remote Play Together support question
-- [worldeka WheelMates Friend's Pass Connection Error troubleshooting checklist](https://worldeka.com/how-to-fix-wheelmates-friend-pass-connection-error-co-op-troubleshooting-guide-2026) - \`wiki/reference\` - checked 2026-09-10 - Version-mismatch check, file verification, lobby-code handling, VPN / strict NAT caveat, and Steam Remote Play Together fallback categories
-- [togame.io WheelMates Online Desync Split-Screen Workaround](https://togame.io/a/wheelmates-online-desync-split-screen-workaround) - \`wiki/reference\` - checked 2026-09-10 - Demo-era desync documentation, the Steam Remote Play Together desync-free fallback procedure, and the "exactly like couch co-op" rationale
-- [Steam store news tab for AppID 3905450](https://store.steampowered.com/news/app/3905450) - \`official/store\` - checked 2026-09-10 - Mirrors the September 5 and September 7, 2026 hotfix posts that the version-matching prerequisite restates
-- [Verified official X handle @wheelmatesgame](https://x.com/wheelmatesgame) - \`community/video\` - checked 2026-09-10 - Verified official channel for hotfix announcements that complement the Steam Community hub posts` },
+      { id: "co-op-troubleshooting-sources", type: "prose", heading: `Sources`, body: `- [Steam store page for WheelMates (AppID 3905450)](https://store.steampowered.com/app/3905450/WheelMates/) - \`official/store\` - checked 2026-09-14 - Online Co-op, Shared/Split Screen Co-op and Shared/Split Screen feature entries, Friend's Pass free-guest wording, 2-player framing, Full Controller Support, Family Sharing, Steam Cloud, and the "WheelMates - Friend's Pass" DLC companion app entry
+- [Steam Community hub for AppID 3905450](https://steamcommunity.com/app/3905450) - \`official/store\` - checked 2026-09-14 - Pinned "HOW TO INVITE A FRIEND WITH FRIEND'S PASS" setup guide (Sep 2, 2026, 6 replies), pinned LAUNCH FAQ (Sep 3, 2026, 13 replies), BUG REPORTS & FEEDBACK pinned thread, the September 5 / September 7, 2026 hotfix posts that restate the version-matching prerequisite, and the September 9, 2026 "Hotfix: Puzzle Progression and Local Co-op Fixes" entry that ships the save-game visual restoration step
+- [Steam Community hub news tab for AppID 3905450](https://steamcommunity.com/app/3905450/allnews/) - \`official/store\` - checked 2026-09-14 - The Sep 9, 2026 "Hotfix: Puzzle Progression and Local Co-op Fixes" post is the most recent Firevolt announcement above the Sep 7 entry.
+- [Steam Community discussions for AppID 3905450](https://steamcommunity.com/app/3905450/discussions) - \`official/store\` - checked 2026-09-14 - "Cant load saved game with friend" by nauGhty (8 hr ago, 2 replies as of 2026-09-14), "Cant load saved game with friend" by nauGhty (2026-09-07), "REMOTE PLAY TOGETHER" by KOBAYASHI (13 replies as of 2026-09-09), and "Steam Remote Play? Please?" (8 replies, most recent Remote Play Together request) confirm the silent join failures, the save-game visual restoration scope, and the open Steam Remote Play Together support question
+- [worldeka WheelMates Friend's Pass Connection Error troubleshooting checklist](https://worldeka.com/how-to-fix-wheelmates-friend-pass-connection-error-co-op-troubleshooting-guide-2026) - \`wiki/reference\` - checked 2026-09-14 - Version-mismatch check, file verification, lobby-code handling, VPN / strict NAT caveat, and Steam Remote Play Together fallback categories
+- [togame.io WheelMates Online Desync Split-Screen Workaround](https://togame.io/a/wheelmates-online-desync-split-screen-workaround) - \`wiki/reference\` - checked 2026-09-14 - Demo-era desync documentation, the Steam Remote Play Together desync-free fallback procedure, and the "exactly like couch co-op" rationale
+- [Steam store news tab for AppID 3905450](https://store.steampowered.com/news/app/3905450) - \`official/store\` - checked 2026-09-14 - Mirrors the September 5, September 7, and September 9, 2026 hotfix posts that the version-matching prerequisite restates and that the save-game visual restoration step draws from
+- [Verified official X handle @wheelmatesgame](https://x.com/wheelmatesgame) - \`community/video\` - checked 2026-09-14 - Verified official channel for hotfix announcements that complement the Steam Community hub posts` },
       { id: "co-op-troubleshooting-internal-links", type: "prose", heading: `Internal Link Requirements`, body: `- \`WheelMates co-op and split screen page\` -> \`/co-op/\` - High-level co-op framing; this troubleshooting page is the step-by-step complement for players who already know they want a two-player online co-op session
-- \`WheelMates patch notes page\` -> \`/patch-notes/\` - Lists the September 5 and September 7, 2026 hotfix posts that restate the version-matching prerequisite and close the local-coop regressions
+- \`WheelMates patch notes page\` -> \`/patch-notes/\` - Lists the September 5, September 7, and September 9, 2026 hotfix posts that restate the version-matching prerequisite, close the local-coop regressions, and ship the save-game visual restoration step
 - \`WheelMates single player page\` -> \`/single-player/\` - The version-matching prerequisite and the Friend's Pass companion app caveat also affect players who launch solo with a second controller attached
 - \`WheelMates community and Discord page\` -> \`/community/\` - Where to coordinate co-op partners and file bug reports in the BUG REPORTS & FEEDBACK pinned thread if the troubleshooting order does not resolve a stall
 - \`WheelMates PC system requirements page\` -> \`/system-requirements/\` - The minimum PC tier needed for stable host upload on the Steam Remote Play Together fallback path
 - \`WheelMates release and platform status page\` -> \`/release/\` - Confirms the September 1, 2026 launch date that anchors the launch-week troubleshooting context` },
-      { id: "co-op-troubleshooting-fact-boundaries", type: "prose", heading: `Fact Boundaries`, body: `- Research date for every claim on this page: 2026-09-10.
+      { id: "co-op-troubleshooting-fact-boundaries", type: "prose", heading: `Fact Boundaries`, body: `- Research date for every claim on this page: 2026-09-14.
 - Confirmed by the Steam store page: 2-player co-op, Online Co-op, Shared/Split Screen Co-op, Shared/Split Screen, Friend's Pass free-guest access, the "WheelMates - Friend's Pass" DLC companion app entry, Full Controller Support, Family Sharing, Steam Cloud.
 - Confirmed by the Sep 5, 2026 and Sep 7, 2026 Steam Community hotfix posts: version-matching prerequisite for every co-op session, with the version number visible in the lower-left corner of the main menu.
+- Confirmed by the Sep 9, 2026 Steam Community hotfix post: the save-game visual restoration fix that the "Cant load saved game with friend." thread by nauGhty surfaced, plus the Backyard soft-lock close and the local-coop antenna display fix.
 - Confirmed by the pinned "HOW TO INVITE A FRIEND WITH FRIEND'S PASS" Steam Community guide (Sep 2, 2026): the Steam Friends invite flow is the canonical invite path, with the lobby-code path as the supported fallback when the players are not on each other's Steam friends list.
 - Steam Remote Play Together support for WheelMates: community-tested as of 2026-09-09; no first-party Firevolt or Steam confirmation of PC-to-PC Remote Play Together yet.
 - The worldeka launch-day troubleshooting checklist documents the version-mismatch, file verification, lobby-code, VPN, and Remote Play Together fallback categories; the togame.io article documents the demo-era desync and the Remote Play Together desync-free fallback procedure. Neither article is a first-party Firevolt source.
-- Crossplay with PS5, Xbox Series X|S, Xbox One, Nintendo Switch, Nintendo Switch 2: Not announced as of 2026-09-10.
+- Crossplay with PS5, Xbox Series X|S, Xbox One, Nintendo Switch, Nintendo Switch 2: Not announced as of 2026-09-14.
 - Steam Family Sharing does not by itself grant Friend's Pass co-op eligibility on WheelMates; Friend's Pass is a separate host-owned companion app and the supported path for two-player online co-op.
-- Console versions of WheelMates (PS5, Xbox Series X|S, Xbox One, Nintendo Switch, Nintendo Switch 2) are Not announced as of 2026-09-10, so console co-op parity is not addressed.
-- The launch-week Steam Community discussions "Cant load saved game with friend", "REMOTE PLAY TOGETHER", and "Steam Remote Play? Please?" are community reports rather than Firevolt posts; treat them as user signals that complement the pinned guides and hotfix posts.` },
+- Console versions of WheelMates (PS5, Xbox Series X|S, Xbox One, Nintendo Switch, Nintendo Switch 2) are Not announced as of 2026-09-14, so console co-op parity is not addressed.
+- The launch-week Steam Community discussions "Cant load saved game with friend", "REMOTE PLAY TOGETHER", "Steam Remote Play? Please?", and "Controllers still not working in local game" by Foxx are community reports rather than Firevolt posts; treat them as user signals that complement the pinned guides and hotfix posts.` },
     ],
     faqIds: [],
     relatedPageIds: [],
     schemaTypes: ["Article", "BreadcrumbList"],
     sourceStatus: "official",
-    lastReviewed: "2026-09-10",
+    lastReviewed: "2026-09-14",
   },
   {
     id: "fixed-steam-deck",
@@ -680,7 +710,7 @@ The togame.io article documents that the built-in online co-op in WheelMates can
     presentation: {shell: "content", variant: "reading-right-rail"},
     h1: `WheelMates Steam Deck: Rating Status and Handheld Notes`,
     seoTitle: `WheelMates Steam Deck Rating and Handheld Playability`,
-    metaDescription: `WheelMates Steam Deck playability is not yet labeled as of 2026-09-05. Steam lists Cloud, Family Sharing, and achievements but no verification banner.`,
+    metaDescription: `WheelMates Steam Deck playability is developer-confirmed by Firevolt's Aug 21, 2026 Steam Community Q&A but the Steam Deck Verified / Playable / Unsupported banner is still absent as of 2026-09-14.`,
     summary: `WheelMates Steam Deck: Rating Status and Handheld Notes`,
     hero: {
       subtitle: `WheelMates Steam Deck: Rating Status and Handheld Notes`,
@@ -688,24 +718,28 @@ The togame.io article documents that the built-in online co-op in WheelMates can
     },
     quickAnswer: `WheelMates Steam Deck: Rating Status and Handheld Notes`,
     keyFacts: [
-      {label: "Research date", value: "2026-09-09"},
+      {label: "Research date", value: "2026-09-14"},
       {label: "Source tier", value: "Official Steam store + Firevolt channels"},
       {label: "Status", value: "complete"},
     ],
     modules: [
-      { id: "steam-deck-quick-answer", type: "prose", heading: `Quick Answer`, body: `WheelMates Steam Deck playability is not yet labeled as of 2026-09-09. The Steam store page for AppID 3905450 lists Steam Cloud, Family Sharing, and Steam Achievements support but does not display a Steam Deck Verified, Playable, or Unsupported banner at research time. Community reports on the Steam Community hub describe the game launching and playing on Steam Deck OLED hardware, although no official rating has been published. Players should expect the rating to be updated when Valve or Firevolt publishes a verified build. The Sep 7, 2026 "Hotfix: Co-op, Progression, and Performance Improvements" entry now ships a Phase Shifter visual fix and adds backend crash-reporting, both of which are relevant to handheld play because the Deck renders the same Phase Shifter effect and the new crash reporting surfaces Deck-side crashes back to Firevolt faster.
+      { id: "steam-deck-quick-answer", type: "prose", heading: `Quick Answer`, body: `WheelMates Steam Deck support is developer-confirmed by Firevolt's "Q&A with the Devs" Steam Community post on August 21, 2026. The Steam Deck Verified / Playable / Unsupported banner is still absent from the Steam store page for AppID 3905450 as of 2026-09-14, so the developer stance and the Valve banner stance diverge until Valve assigns a label on the WheelMates Steam Deck page. Community reports on the Steam Community hub describe the game launching and playing on Steam Deck OLED hardware, which is the player-side signal that backs the developer statement. The Sep 7, 2026 "Hotfix: Co-op, Progression, and Performance Improvements" entry ships a Phase Shifter visual fix and adds backend crash-reporting, both of which are relevant to handheld play because the Deck renders the same Phase Shifter effect and the new crash reporting surfaces Deck-side crashes back to Firevolt faster.
 
 ## What is the WheelMates Steam Deck rating today?
 
-The Steam store page for WheelMates on AppID 3905450 does not render a Steam Deck Verified, Playable, or Unsupported icon at the time of writing, which is dated 2026-09-09. The page shows Steam Cloud, Family Sharing, and Steam Achievements inside the Steam features block, and it shows the Full Controller Support banner next to the title. The Deck-rating slot next to the game name in Big Picture and in the desktop client is empty.
+The Steam store page for WheelMates on AppID 3905450 does not render a Steam Deck Verified, Playable, or Unsupported icon at the time of writing, which is dated 2026-09-14. The page shows Steam Cloud, Family Sharing, and Steam Achievements inside the Steam features block, and it shows the Full Controller Support banner next to the title. The Deck-rating slot next to the game name in Big Picture and in the desktop client is empty.
 
-The SteamDB snapshot for AppID 3905450 mirrors that absence and lists no Deck-rating column value. The Firevolt landing hub at wheelmatesgame.com cross-links the Steam store page but does not show a Deck rating badge either. Until Valve assigns a label on the WheelMates Steam Deck page, treat the rating as "not yet labeled as of 2026-09-09." Community reports on the Steam Community hub for AppID 3905450 describe the game launching and running on Steam Deck OLED, which is a useful signal but not a substitute for an official rating.
+The SteamDB snapshot for AppID 3905450 mirrors that absence and lists no Deck-rating column value. The Firevolt landing hub at wheelmatesgame.com cross-links the Steam store page but does not show a Deck rating badge either. Firevolt's "Q&A with the Devs" Steam Community post on August 21, 2026 developer-confirms Steam Deck support, but Valve assigns the Verified / Playable / Unsupported banner rather than the developer, so the developer stance and the Valve banner stance differ until Valve processes a build. Until Valve assigns a label on the WheelMates Steam Deck page, treat the rating as "developer-confirmed support, banner still absent as of 2026-09-14." Community reports on the Steam Community hub for AppID 3905450 describe the game launching and running on Steam Deck OLED, which is a useful signal but not a substitute for an official rating.
 
 ## Steam Cloud, Family Sharing, and achievements on Deck
 
 Steam Cloud, Family Sharing, and Steam Achievements are listed in the Steam features block on the WheelMates store page. On a Steam Deck LCD or OLED unit those three services work the same way they do on Windows desktop because they rely on Valve's cloud, not on a per-platform approval flag. Family Sharing lets another person play your copy on their own Deck using their own Steam account.
 
 Local split-screen co-op and online co-op through Friend's Pass are listed on the store page and on the Steam Community hub pinned Friend's Pass guide. The Full Controller Support banner covers the Deck's built-in gamepad, the DualSense, and the DualShock 4, which lets the WheelMates Steam Deck experience behave like a controller title without manual remapping.
+
+## Firevolt developer-confirmed Steam Deck support (Aug 21, 2026 Q&A)
+
+Firevolt's "Q&A with the Devs" Steam Community post on August 21, 2026 is the first-party statement that WheelMates supports Steam Deck. The same post is the source for the first-half-of-2027 console window on PlayStation 5, Xbox Series X|S, and Nintendo Switch, and for the strictly 2-player co-op clarification, so the Steam Deck support sentence sits inside the same first-party Q&A entry rather than a separate announcement. The developer stance and the Valve banner stance diverge: Firevolt confirms Deck support, but the Verified / Playable / Unsupported banner on the Steam store page is still empty until Valve assigns one. Third-party mirrors on updatemonitor.com and iscrossplay.com echo the same Aug 21, 2026 first-party answer.
 
 ## Minimum-spec handheld performance expectation
 
@@ -721,10 +755,10 @@ The Sep 7, 2026 "Hotfix: Co-op, Progression, and Performance Improvements" entry
 
 Valve updates Steam Deck ratings when the developer or publisher submits a verified build or when player reports surface a compatibility problem that requires a new submission. The most reliable way to learn when a WheelMates Steam Deck rating appears is to check the store page directly or to watch the Steam Community hub news feed for an official announcement.
 
-The Firevolt landing hub at wheelmatesgame.com cross-links the Steam store and the Steam Community hub, and the verified official X handle @wheelmatesgame posts updates whenever a Deck-related status changes. If Valve assigns a Verified, Playable, or Unsupported label after 2026-09-05, this page will be updated to reflect the new status and to cite the exact source.` },
+The Firevolt landing hub at wheelmatesgame.com cross-links the Steam store and the Steam Community hub, and the verified official X handle @wheelmatesgame posts updates whenever a Deck-related status changes. If Valve assigns a Verified, Playable, or Unsupported label after 2026-09-14, this page will be updated to reflect the new status and to cite the exact source.` },
       { id: "steam-deck-faq", type: "prose", heading: `Frequently Asked Questions`, body: `### Is WheelMates Steam Deck Verified?
 
-Not announced as of 2026-09-05. The Steam store page for AppID 3905450 does not display a Verified, Playable, or Unsupported banner. Community reports describe the game launching on Steam Deck OLED, but the official rating is still pending.
+Not announced as of 2026-09-14. The Steam store page for AppID 3905450 does not display a Verified, Playable, or Unsupported banner, even though Firevolt's "Q&A with the Devs" Steam Community post on August 21, 2026 confirms Deck support. Community reports describe the game launching on Steam Deck OLED, but the official Valve banner is still pending.
 
 ### Does Steam Cloud work on Steam Deck?
 
@@ -732,30 +766,35 @@ Yes. The Steam store features block lists Steam Cloud for AppID 3905450, so save
 
 ### Will the rating change after launch?
 
-Not announced as of 2026-09-05. WheelMates Steam Deck ratings typically appear after the developer submits a verified build or after Valve processes community reports; check the store page or the Steam Community hub news feed for the next update.` },
-      { id: "steam-deck-sources", type: "prose", heading: `Sources`, body: `- [Steam store page for WheelMates (AppID 3905450)](https://store.steampowered.com/app/3905450/WheelMates/) - \`official/store\` - checked 2026-09-09 - Steam features (Steam Cloud, Family Sharing, Steam Achievements, Full Controller Support) and absence of Steam Deck Verified / Playable / Unsupported banner at research time
-- [SteamDB AppID 3905450](https://steamdb.info/app/3905450/) - \`wiki/reference\` - checked 2026-09-09 - SteamDB snapshot of AppID metadata, system requirements, and no Deck-rating column entry
-- [Steam Community hub for AppID 3905450](https://steamcommunity.com/app/3905450) - \`official/store\` - checked 2026-09-09 - community report that the game launches and plays on Steam Deck OLED hardware plus the Sep 7, 2026 "Hotfix: Co-op, Progression, and Performance Improvements" entry on the Phase Shifter visual fix and the new backend crash-reporting addition
-- [Official Firevolt landing hub wheelmatesgame.com](https://www.wheelmatesgame.com/) - \`official/store\` - checked 2026-09-09 - cross-links to the Steam store and the Steam Community hub
-- [Official Discord invite](https://discord.com/invite/wheelmates) - \`community/video\` - checked 2026-09-09 - community-confirmed playability reports on Steam Deck OLED
-- [Verified official X handle @wheelmatesgame](https://x.com/wheelmatesgame) - \`community/video\` - checked 2026-09-09 - official channel for Steam Deck status updates` },
-      { id: "steam-deck-internal-links", type: "prose", heading: `Internal Link Requirements`, body: `- \`WheelMates system requirements\` -> \`/system-requirements/\` - pairs the handheld note with the desktop minimum / recommended specs
-- \`WheelMates release date and platforms\` -> \`/release/\` - anchors the launch window when the Deck rating may change
+Not announced as of 2026-09-14. WheelMates Steam Deck ratings typically appear after the developer submits a verified build or after Valve processes community reports; check the store page or the Steam Community hub news feed for the next update.` },
+      { id: "steam-deck-sources", type: "prose", heading: `Sources`, body: `- [Steam store page for WheelMates (AppID 3905450)](https://store.steampowered.com/app/3905450/WheelMates/) - \`official/store\` - checked 2026-09-14 - Steam features (Steam Cloud, Family Sharing, Steam Achievements, Full Controller Support) and absence of Steam Deck Verified / Playable / Unsupported banner at research time
+- [Steam Community hub news tab for AppID 3905450](https://steamcommunity.com/app/3905450/allnews/) - \`official/store\` - checked 2026-09-14 - Firevolt's "Q&A with the Devs" Steam Community post on August 21, 2026 is the first-party source for Steam Deck support, the first-half-of-2027 console window on PS5 / Xbox Series X|S / Nintendo Switch, and the strictly 2-player co-op clarification.
+- [SteamDB AppID 3905450](https://steamdb.info/app/3905450/) - \`wiki/reference\` - checked 2026-09-14 - SteamDB snapshot of AppID metadata, system requirements, and no Deck-rating column entry
+- [Steam Community hub for AppID 3905450](https://steamcommunity.com/app/3905450) - \`official/store\` - checked 2026-09-14 - community report that the game launches and plays on Steam Deck OLED hardware plus the Sep 7, 2026 "Hotfix: Co-op, Progression, and Performance Improvements" entry on the Phase Shifter visual fix and the new backend crash-reporting addition
+- [Official Firevolt landing hub wheelmatesgame.com](https://www.wheelmatesgame.com/) - \`official/store\` - checked 2026-09-14 - cross-links to the Steam store and the Steam Community hub
+- [Official Discord invite](https://discord.com/invite/wheelmates) - \`community/video\` - checked 2026-09-14 - community-confirmed playability reports on Steam Deck OLED
+- [Verified official X handle @wheelmatesgame](https://x.com/wheelmatesgame) - \`community/video\` - checked 2026-09-14 - official channel for Steam Deck status updates
+- [updatemonitor.com WheelMates news mirror (Aug 21, 2026 Q&A)](https://www.updatemonitor.com/app/3905450/news/1841579228669120) - \`wiki/reference\` - checked 2026-09-14 - third-party mirror of the Aug 21, 2026 "Q&A with the Devs" Steam Community post that confirms Steam Deck support.
+- [iscrossplay.com WheelMates crossplay reference](https://iscrossplay.com/games/wheelmates) - \`wiki/reference\` - checked 2026-09-14 - third-party mirror corroborating the Aug 21, 2026 first-party Steam Deck support statement` },
+      { id: "steam-deck-internal-links", type: "prose", heading: `Internal Link Requirements`, body: `- \`WheelMates system requirements\` -> \`/system-requirements/\` - pairs the handheld note with the desktop minimum / recommended specs and mirrors the Firevolt developer-confirmed Steam Deck support sentence
+- \`WheelMates release date and platforms\` -> \`/release/\` - anchors the launch window when the Deck rating may change; the same Aug 21, 2026 first-party Q&A posts the first-half-of-2027 console window
 - \`WheelMates controller support\` -> \`/controller-support/\` - expands the Full Controller Support banner to DualSense and DualShock 4 details
 - \`WheelMates patch notes page\` -> \`/patch-notes/\` - lists the Sep 7, 2026 "Hotfix: Co-op, Progression, and Performance Improvements" entry that ships the Phase Shifter visual fix and the new backend crash-reporting addition
 - \`WheelMates RC car gadgets page\` -> \`/rc-car-gadgets/\` - mirrors the Sep 7 Phase Shifter visual fix on the gadget reference page` },
-      { id: "steam-deck-fact-boundaries", type: "prose", heading: `Fact Boundaries`, body: `- Steam Deck Verified / Playable / Unsupported rating: not announced as of 2026-09-09; the Steam store page does not display a banner at the time of research.
-- Steam Deck OLED playability: community-reported as of 2026-09-09 on the Steam Community hub and the official Discord invite; not an official benchmark.
-- Steam features (Steam Cloud, Family Sharing, Steam Achievements, Full Controller Support): confirmed on the Steam store page as of 2026-09-09.
-- Phase Shifter visual fix and backend crash-reporting: confirmed in the Sep 7, 2026 "Hotfix: Co-op, Progression, and Performance Improvements" entry on the Steam Community hub news feed as of 2026-09-09.
+      { id: "steam-deck-fact-boundaries", type: "prose", heading: `Fact Boundaries`, body: `- Steam Deck Verified / Playable / Unsupported rating: not announced as of 2026-09-14; the Steam store page does not display a banner at the time of research.
+- Steam Deck developer confirmation: confirmed by Firevolt's "Q&A with the Devs" Steam Community post on August 21, 2026. Valve assigns the banner, not the developer, so the developer stance and the Valve banner stance differ until Valve processes a build.
+- Steam Deck OLED playability: community-reported as of 2026-09-14 on the Steam Community hub and the official Discord invite; not an official benchmark.
+- Steam features (Steam Cloud, Family Sharing, Steam Achievements, Full Controller Support): confirmed on the Steam store page as of 2026-09-14.
+- Phase Shifter visual fix and backend crash-reporting: confirmed in the Sep 7, 2026 "Hotfix: Co-op, Progression, and Performance Improvements" entry on the Steam Community hub news feed as of 2026-09-14.
 - System requirements minimum: Windows 10/11 64-bit, Intel Core i5-8400 / AMD Ryzen 5 2600, 8 GB RAM, GeForce GTX 1060 / Radeon RX 580, DirectX 12, 15 GB storage; quoted verbatim from the Steam store page.
-- Release date 2026-09-01 and developer / publisher Firevolt: confirmed by the Steam store page and the official wheelmatesgame.com hub.` },
+- Release date 2026-09-01 and developer / publisher Firevolt: confirmed by the Steam store page and the official wheelmatesgame.com hub.
+- First-half-of-2027 console window on PlayStation 5, Xbox Series X|S, and Nintendo Switch and the strictly 2-player co-op clarification: confirmed by the same Aug 21, 2026 "Q&A with the Devs" Steam Community post.` },
     ],
     faqIds: [],
     relatedPageIds: [],
     schemaTypes: ["Article", "BreadcrumbList"],
     sourceStatus: "official",
-    lastReviewed: "2026-09-09",
+    lastReviewed: "2026-09-14",
   },
   {
     id: "fixed-controller-support",
@@ -1128,7 +1167,7 @@ No. The WheelMates - Supporter Pack DLC on the Steam store page is a cosmetic ac
     },
     quickAnswer: `WheelMates Keypad Puzzle and Launch-Week Solutions`,
     keyFacts: [
-      {label: "Research date", value: "2026-09-09"},
+      {label: "Research date", value: "2026-09-14"},
       {label: "Source tier", value: "Official Steam store + Firevolt channels"},
       {label: "Status", value: "complete"},
     ],
@@ -1195,9 +1234,9 @@ The community-confirmed hint order is 1, 2, 3, 4, 5 in left-to-right order along
 
 Players who hit the soft lock should reload the last save rather than restart the hint sequence, because the panels stay in the pressed state across a session change. Players who cannot reach the hint wall should check that the Phase Shifter and the Magnetic Grabber are both unlocked, because the hint wall is gated behind the same barrier that hides fragment 14.
 
-## Backyard antenna puzzle progression (Sep 7, 2026 hotfix)
+## Backyard antenna puzzle progression (Sep 7 and Sep 9, 2026 hotfixes)
 
-The Sep 7, 2026 "Hotfix: Co-op, Progression, and Performance Improvements" post lists the Backyard antenna puzzle progression fix alongside the other six Sep 7 fixes. The Sep 4, 2026 "Hotfix: Startup, Co-op, and Gameplay Fixes" had already cleared "additional progression issues in the Shed and the Backyard's three-antenna puzzle," and the Sep 7 hotfix closes the remaining Backyard antenna puzzle soft lock that some launch-week players still hit after the Sep 4 build. Players who hit the Sep 7-era symptom of being unable to register the final Backyard antenna activation should update to the latest Steam build and reload the last save; the canonical community workaround documented on the launch-week Steam Community discussions threads is to drive the second car to the antenna's switch panel trigger while the first car holds the matching wire, which mirrors the FAR BEYOND DRIVEN lever pattern. The Steam Community "Backyard progression bug?" thread (Sep 7, 2026, 4 replies) is the most recent confirmation that this pattern still surfaces on older builds.
+The Sep 7, 2026 "Hotfix: Co-op, Progression, and Performance Improvements" post lists the Backyard antenna puzzle progression fix alongside the other six Sep 7 fixes. The Sep 4, 2026 "Hotfix: Startup, Co-op, and Gameplay Fixes" had already cleared "additional progression issues in the Shed and the Backyard's three-antenna puzzle," and the Sep 7 hotfix closes the remaining Backyard antenna puzzle soft lock that some launch-week players still hit after the Sep 4 build. The Sep 9, 2026 "Hotfix: Puzzle Progression and Local Co-op Fixes" post then ships the Backyard soft-lock close that fully resolves the symptom on the latest Steam build, alongside the save-game visual restoration and the local-coop antenna display fix. Players who hit either-era symptom of being unable to register the final Backyard antenna activation should update to the latest Steam build and reload the last save; the canonical community workaround documented on the launch-week Steam Community discussions threads is to drive the second car to the antenna's switch panel trigger while the first car holds the matching wire, which mirrors the FAR BEYOND DRIVEN lever pattern. The Steam Community "Backyard progression bug?" thread (Sep 7, 2026, 4 replies) and the "STUCK IN GARAGE FOR SECOND AND THIRD PUMP" thread by Lupo_-_ (10 hr ago, 2 replies as of 2026-09-14) are the most recent confirmations that this pattern still surfaces on older builds.
 
 ## Garage button activation (Sep 7, 2026 hotfix)
 
@@ -1229,26 +1268,28 @@ Send one car through the door and hold the switch panel open while the second ca
 ### What is the Neuro Void 12345 hint sequence?
 
 The numbers 1, 2, 3, 4, 5 are pressed in left-to-right order along the hint wall. The Sep 4, 2026 hotfix confirmed that any other order triggers a soft lock that resets on a session change.` },
-      { id: "puzzle-walkthrough-sources", type: "prose", heading: `Sources`, body: `- [Steam Community hub for AppID 3905450](https://steamcommunity.com/app/3905450) - \`official/store\` - checked 2026-09-09 - Sep 1, 2026 "Hotfix: Login Issue Fixed", Sep 2, 2026 "Hotfix: Progression and Co-op Fixes", Sep 4, 2026 "Hotfix: Startup, Co-op, and Gameplay Fixes", and Sep 7, 2026 "Hotfix: Co-op, Progression, and Performance Improvements" entries
-- [Steam Community discussions for AppID 3905450](https://steamcommunity.com/app/3905450/discussions) - \`community/video\` - checked 2026-09-09 - "Keypad code?" (Sep 2, 2026), "Hallway Chip - what am I missing?" (Sep 3, 2026), "neuro-void fragments 13/14 - custom parts hunt" (Sep 4, 2026), "Stuck in void without magnet" (Sep 3, 2026), "Stuck at FAR BEYOND DRIVEN lever" (Sep 4, 2026), "Neuro Void 12345 Puzzle" (Sep 4, 2026), and "Backyard progression bug?" (Sep 7, 2026, 4 replies) threads
-- [Steam store page for WheelMates (AppID 3905450)](https://store.steampowered.com/app/3905450/WheelMates/) - \`official/store\` - checked 2026-09-09 - WheelMates gadget list (rope swings, magnetic wheels, magnet grabs, Phase Shifter, Paintgun, Magnetic Grabber) referenced by each puzzle
-- [Official Firevolt landing hub wheelmatesgame.com](https://www.wheelmatesgame.com/) - \`official/store\` - checked 2026-09-09 - cross-links the Steam store, the Steam Community hub, and the official Discord invite
-- [Official Discord invite](https://discord.com/invite/wheelmates) - \`community/video\` - checked 2026-09-09 - community-shared Steam Input per-game settings and puzzle workaround clips` },
+      { id: "puzzle-walkthrough-sources", type: "prose", heading: `Sources`, body: `- [Steam Community hub for AppID 3905450](https://steamcommunity.com/app/3905450) - \`official/store\` - checked 2026-09-14 - Sep 1, 2026 "Hotfix: Login Issue Fixed", Sep 2, 2026 "Hotfix: Progression and Co-op Fixes", Sep 4, 2026 "Hotfix: Startup, Co-op, and Gameplay Fixes", Sep 7, 2026 "Hotfix: Co-op, Progression, and Performance Improvements", and Sep 9, 2026 "Hotfix: Puzzle Progression and Local Co-op Fixes" entries
+- [Steam Community hub news tab for AppID 3905450](https://steamcommunity.com/app/3905450/allnews/) - \`official/store\` - checked 2026-09-14 - The Sep 9, 2026 "Hotfix: Puzzle Progression and Local Co-op Fixes" post is the most recent Firevolt announcement above the Sep 7 entry.
+- [Steam Community discussions for AppID 3905450](https://steamcommunity.com/app/3905450/discussions) - \`community/video\` - checked 2026-09-14 - "Keypad code?" (Sep 2, 2026), "Hallway Chip - what am I missing?" (Sep 3, 2026), "neuro-void fragments 13/14 - custom parts hunt" (Sep 4, 2026), "Stuck in void without magnet" (Sep 3, 2026), "Stuck at FAR BEYOND DRIVEN lever" (Sep 4, 2026), "Neuro Void 12345 Puzzle" (Sep 4, 2026), "Backyard progression bug?" (Sep 7, 2026, 4 replies), and "STUCK IN GARAGE FOR SECOND AND THIRD PUMP" by Lupo_-_ (10 hr ago, 2 replies as of 2026-09-14) threads
+- [Steam store page for WheelMates (AppID 3905450)](https://store.steampowered.com/app/3905450/WheelMates/) - \`official/store\` - checked 2026-09-14 - WheelMates gadget list (rope swings, magnetic wheels, magnet grabs, Phase Shifter, Paintgun, Magnetic Grabber) referenced by each puzzle
+- [Official Firevolt landing hub wheelmatesgame.com](https://www.wheelmatesgame.com/) - \`official/store\` - checked 2026-09-14 - cross-links the Steam store, the Steam Community hub, and the official Discord invite
+- [Official Discord invite](https://discord.com/invite/wheelmates) - \`community/video\` - checked 2026-09-14 - community-shared Steam Input per-game settings and puzzle workaround clips` },
       { id: "puzzle-walkthrough-internal-links", type: "prose", heading: `Internal Link Requirements`, body: `- \`WheelMates RC car gadgets\` -> \`/rc-car-gadgets/\` - links each puzzle workaround to the matching gadget (Phase Shifter, Magnetic Grabber, magnetic wheels, Paintgun)
 - \`WheelMates Steam achievements\` -> \`/achievements/\` - pairs the puzzle walkthrough with the 21-achievement roster on the Steam Community hub
-- \`WheelMates patch notes page\` -> \`/patch-notes/\` - lists the Sep 7, 2026 "Hotfix: Co-op, Progression, and Performance Improvements" entry that fixes the Backyard antenna puzzle progression and the Garage button activation` },
+- \`WheelMates patch notes page\` -> \`/patch-notes/\` - lists the Sep 7, 2026 "Hotfix: Co-op, Progression, and Performance Improvements" entry that fixes the Backyard antenna puzzle progression and the Garage button activation, and the Sep 9, 2026 "Hotfix: Puzzle Progression and Local Co-op Fixes" entry that closes the remaining Backyard soft lock and restores save-game visuals` },
       { id: "puzzle-walkthrough-fact-boundaries", type: "prose", heading: `Fact Boundaries`, body: `- WheelMates keypad puzzle, Hallway Chip, neuro-void fragments 13/14, "Stuck in void without magnet", "Stuck at FAR BEYOND DRIVEN" lever, and "Neuro Void 12345 Puzzle": community-confirmed in Steam Community discussions threads dated Sep 2, 3, and 4, 2026.
 - Backyard antenna puzzle progression fix and Garage button activation fix: confirmed in the Sep 7, 2026 "Hotfix: Co-op, Progression, and Performance Improvements" entry on the Steam Community hub news feed as of 2026-09-09.
-- Sep 1, Sep 2, Sep 4, and Sep 7, 2026 hotfix entries: confirmed on the Steam Community hub news feed as of 2026-09-09; each puzzle workaround cites the matching hotfix by date.
+- Backyard soft-lock close and save-game visual restoration: confirmed in the Sep 9, 2026 "Hotfix: Puzzle Progression and Local Co-op Fixes" entry on the Steam Community hub news feed as of 2026-09-14.
+- Sep 1, Sep 2, Sep 4, Sep 7, and Sep 9, 2026 hotfix entries: confirmed on the Steam Community hub news feed as of 2026-09-14; each puzzle workaround cites the matching hotfix by date.
 - Phase Shifter diagonal-stick tightening: confirmed in the Sep 4, 2026 hotfix on the Steam Community hub news feed.
-- Demo walkthrough: not announced as of 2026-09-09 on the Steam store page, the official Firevolt landing hub, or the Steam Community discussions.
+- Demo walkthrough: not announced as of 2026-09-14 on the Steam store page, the official Firevolt landing hub, or the Steam Community discussions.
 - Release date 2026-09-01, developer / publisher Firevolt, 2-player co-op RC car driving adventure, and the six-gadget WheelMates list: confirmed by the Steam store page and the official wheelmatesgame.com hub.` },
     ],
     faqIds: [],
     relatedPageIds: [],
     schemaTypes: ["Article", "BreadcrumbList"],
     sourceStatus: "official",
-    lastReviewed: "2026-09-09",
+    lastReviewed: "2026-09-14",
   },
   {
     id: "fixed-achievements",
@@ -1365,7 +1406,7 @@ The Steam Community hub has a pinned BUG REPORTS & FEEDBACK thread and a LAUNCH 
     },
     quickAnswer: `WheelMates Single Player: Yes, You Can Finish the Game Solo`,
     keyFacts: [
-      {label: "Research date", value: "2026-09-09"},
+      {label: "Research date", value: "2026-09-14"},
       {label: "Source tier", value: "Official Steam store + Firevolt channels"},
       {label: "Status", value: "complete"},
     ],
@@ -1374,9 +1415,9 @@ The Steam Community hub has a pinned BUG REPORTS & FEEDBACK thread and a LAUNCH 
 
 ## Can you finish a WheelMates single player run end to end?
 
-The Steam store page for WheelMates (AppID 3905450) treats WheelMates as a 2-player co-op RC car driving adventure, but the same features banner also confirms a single-player path. The official description frames the player as answering a call for help from a missing professor and steering two tiny RC cars through the professor's home laboratory. Solo players control both cars from a single Steam account rather than handing the second controller to a friend, and the story, puzzles, and progression still resolve on a single save file.
+The Steam store page for WheelMates (AppID 3905450) treats WheelMates as a 2-player co-op RC car driving adventure, but the same features banner also confirms a single-player path. Firevolt's "Q&A with the Devs" Steam Community post on August 21, 2026 clarifies that the game is strictly 2-player co-op with no real solo mode, but the Steam store features list and the launch-week community threads still describe a solo-friendly play path where one player controls both cars. The official description frames the player as answering a call for help from a missing professor and steering two tiny RC cars through the professor's home laboratory. Solo players control both cars from a single Steam account rather than handing the second controller to a friend, and the story, puzzles, and progression still resolve on a single save file.
 
-The Steam Community hub reinforces this with a pinned "Single Player" discussion thread (65 replies from Chefski, 10 hr ago as of 2026-09-09) and a LAUNCH FAQ that explicitly addresses solo players. Firevolt has not published a separate single-player mode or a single-player-only branch as of 2026-09-09, so the standard solo experience is the same playthrough that co-op players see, just driven by one person instead of two.
+The Steam Community hub reinforces this with a pinned "Single Player" discussion thread (65 replies from Chefski, 10 hr ago as of 2026-09-09) and a LAUNCH FAQ that explicitly addresses solo players. Firevolt has not published a separate single-player mode or a single-player-only branch as of 2026-09-14, so the standard solo experience is the same playthrough that co-op players see, just driven by one person instead of two.
 
 Solo completion does not require a second Steam account, a second game purchase, or a Friend's Pass invite. The Friend's Pass exists so that a co-op partner can join the host for free, but skipping that feature entirely is supported.
 
@@ -1424,25 +1465,28 @@ The version-matching prerequisite is restated by both the Sep 5 and Sep 7, 2026 
 ### Is crossplay with consoles available for solo play?
 
 Not announced as of 2026-09-09. PS5, Xbox Series X|S, Xbox One, Nintendo Switch, and Nintendo Switch 2 versions of WheelMates have not been announced, so console single-player parity is not a question Steam players need to answer yet.` },
-      { id: "single-player-sources", type: "prose", heading: `Sources`, body: `- [Steam store page for WheelMates (AppID 3905450)](https://store.steampowered.com/app/3905450/WheelMates/) - \`official/store\` - checked 2026-09-09 - Confirms Online Co-op, Shared/Split Screen Co-op, Friend's Pass, Full Controller Support, and the 21 Steam Achievements referenced by solo progression questions.
-- [Steam Community hub for AppID 3905450](https://steamcommunity.com/app/3905450) - \`official/store\` - checked 2026-09-09 - Source of the LAUNCH FAQ, BUG REPORTS & FEEDBACK pinned posts, Friend's Pass guide, the launch-week hotfix notes that fix solo and co-op bugs together, the September 5, 2026 "Hotfix: Local Co-op Fatal Error" post, and the September 7, 2026 "Hotfix: Co-op, Progression, and Performance Improvements" entry that closes the "Press any key" main-menu freeze and the cars-continuing-to-move-while-Settings-or-Journal-open regression.
-- [Steam Community discussions (Single Player thread)](https://steamcommunity.com/app/3905450/discussions) - \`community/video\` - checked 2026-09-09 - Surfaces the "Single Player" thread by Chefski (65 replies, 10 hr ago as of 2026-09-09), the second-controller fatal error reports, and the Friend's Pass save-file questions summarized above.
-- [Official Firevolt landing hub wheelmatesgame.com](https://www.wheelmatesgame.com/) - \`official/store\` - checked 2026-09-09 - Cross-links the Steam store and the official Discord invite that solo players use for bug reports.
-- [Official Discord invite](https://discord.com/invite/wheelmates) - \`community/video\` - checked 2026-09-09 - The official Firevolt community hub where solo player questions surface alongside co-op discussions.` },
+      { id: "single-player-sources", type: "prose", heading: `Sources`, body: `- [Steam store page for WheelMates (AppID 3905450)](https://store.steampowered.com/app/3905450/WheelMates/) - \`official/store\` - checked 2026-09-14 - Confirms Online Co-op, Shared/Split Screen Co-op, Friend's Pass, Full Controller Support, and the 21 Steam Achievements referenced by solo progression questions.
+- [Steam Community hub news tab for AppID 3905450](https://steamcommunity.com/app/3905450/allnews/) - \`official/store\` - checked 2026-09-14 - Firevolt's "Q&A with the Devs" Steam Community post on August 21, 2026 is the first-party source for the "strictly 2-player co-op, no real solo mode" clarifier, the first-half-of-2027 console window on PS5 / Xbox Series X|S / Nintendo Switch, and the developer-confirmed Steam Deck support.
+- [Steam Community hub for AppID 3905450](https://steamcommunity.com/app/3905450) - \`official/store\` - checked 2026-09-14 - Source of the LAUNCH FAQ, BUG REPORTS & FEEDBACK pinned posts, Friend's Pass guide, the launch-week hotfix notes that fix solo and co-op bugs together, the September 5, 2026 "Hotfix: Local Co-op Fatal Error" post, and the September 7, 2026 "Hotfix: Co-op, Progression, and Performance Improvements" entry that closes the "Press any key" main-menu freeze and the cars-continuing-to-move-while-Settings-or-Journal-open regression.
+- [Steam Community discussions (Single Player thread)](https://steamcommunity.com/app/3905450/discussions) - \`community/video\` - checked 2026-09-14 - Surfaces the "Single Player" thread by Chefski (65 replies, 10 hr ago as of 2026-09-09), the second-controller fatal error reports, and the Friend's Pass save-file questions summarized above.
+- [Official Firevolt landing hub wheelmatesgame.com](https://www.wheelmatesgame.com/) - \`official/store\` - checked 2026-09-14 - Cross-links the Steam store and the official Discord invite that solo players use for bug reports.
+- [Official Discord invite](https://discord.com/invite/wheelmates) - \`community/video\` - checked 2026-09-14 - The official Firevolt community hub where solo player questions surface alongside co-op discussions.` },
       { id: "single-player-internal-links", type: "prose", heading: `Internal Link Requirements`, body: `- \`Co-op and split screen page\` -> \`/co-op/\` - Explains how Friend's Pass works for the host, which is the same role a solo player takes when they start a run.
 - \`Controller support page\` -> \`/controller-support/\` - Lists the Full Controller Support matrix and the DualSense / DualShock 4 caveats that solo players should know about before plugging in a second pad.
-- \`Patch notes page\` -> \`/patch-notes/\` - Tracks the launch-week hotfixes (Sep 1, 2, 4, 5, and 7, 2026) that address solo and co-op bugs together, including the version-matching prerequisite.` },
-      { id: "single-player-fact-boundaries", type: "prose", heading: `Fact Boundaries`, body: `- Single-player support is confirmed by the Steam store features banner and the LAUNCH FAQ pinned on the Steam Community hub as of 2026-09-09.
+- \`Patch notes page\` -> \`/patch-notes/\` - Tracks the launch-week hotfixes (Sep 1, 2, 4, 5, 7, and 9, 2026) that address solo and co-op bugs together, including the version-matching prerequisite.
+- \`Release and platform status page\` -> \`/release/\` - Carries the Aug 21, 2026 first-half-of-2027 console window on PS5, Xbox Series X|S, and Nintendo Switch that pairs with the strictly 2-player co-op clarifier.` },
+      { id: "single-player-fact-boundaries", type: "prose", heading: `Fact Boundaries`, body: `- Single-player support is confirmed by the Steam store features banner and the LAUNCH FAQ pinned on the Steam Community hub as of 2026-09-14.
+- Firevolt's "Q&A with the Devs" Steam Community post on August 21, 2026 clarifies that the game is strictly 2-player co-op with no real solo mode. The page does not invent an alternate solo path beyond what the launch-week community threads document.
 - Friend's Pass is one-way (host owns, friend joins free) per the Steam Community hub pinned guide; the page does not invent alternate Friend's Pass models.
-- The Sep 5, 2026 "Hotfix: Local Co-op Fatal Error" closed the local co-op fatal error restated in launch-week community reports. The Sep 7, 2026 "Hotfix: Co-op, Progression, and Performance Improvements" closed the "Press any key" main-menu freeze path for local co-op returns and the cars-continuing-to-move-while-Settings-or-Journal-open regression. The canonical unplug-the-second-pad workaround is still recommended until the host is confirmed on the latest Steam build.
-- Solo-only DLC, a higher-difficulty solo mode, and any solo-exclusive control scheme are Not announced as of 2026-09-09.
-- Console single-player parity is Not announced as of 2026-09-09 because PS5, Xbox Series X|S, Xbox One, Nintendo Switch, and Nintendo Switch 2 versions have not been announced.` },
+- The Sep 5, 2026 "Hotfix: Local Co-op Fatal Error" closed the local co-op fatal error restated in launch-week community reports. The Sep 7, 2026 "Hotfix: Co-op, Progression, and Performance Improvements" closed the "Press any key" main-menu freeze path for local co-op returns and the cars-continuing-to-move-while-Settings-or-Journal-open regression. The Sep 9, 2026 "Hotfix: Puzzle Progression and Local Co-op Fixes" added the save-game visual restoration step. The canonical unplug-the-second-pad workaround is still recommended until the host is confirmed on the latest Steam build.
+- Solo-only DLC, a higher-difficulty solo mode, and any solo-exclusive control scheme are Not announced as of 2026-09-14.
+- Console single-player parity is Not announced as of 2026-09-14 because Xbox One, Nintendo Switch 2, and PlayStation 4 versions have not been announced; PS5, Xbox Series X|S, and Nintendo Switch are targeted for the first half of 2027 per the Aug 21, 2026 first-party Q&A.` },
     ],
     faqIds: [],
     relatedPageIds: [],
     schemaTypes: ["Article", "BreadcrumbList"],
     sourceStatus: "official",
-    lastReviewed: "2026-09-09",
+    lastReviewed: "2026-09-14",
   },
   {
     id: "fixed-patch-notes",
@@ -1453,26 +1497,36 @@ Not announced as of 2026-09-09. PS5, Xbox Series X|S, Xbox One, Nintendo Switch,
     url: "/patch-notes",
     pageType: "guides",
     presentation: {shell: "content", variant: "reading-right-rail"},
-    h1: `WheelMates Patch Notes: Launch-Week Hotfixes (Sep 1-7, 2026)`,
+    h1: `WheelMates Patch Notes: Launch-Week Hotfixes (Sep 1-9, 2026)`,
     seoTitle: `WheelMates Patch Notes: Every Launch-Week Hotfix So Far`,
-    metaDescription: `WheelMates patch notes from launch week: the Sep 1 login hotfix, Sep 2 progression and co-op fixes, Sep 4 startup/co-op/gameplay patch, Sep 5 Local Co-op Fatal Error hotfix, and Sep 7 Co-op, Progression, and Performance Improvements hotfix.`,
-    summary: `WheelMates Patch Notes: Launch-Week Hotfixes (Sep 1-7, 2026)`,
+    metaDescription: `WheelMates patch notes from launch week: the Sep 1 login hotfix, Sep 2 progression and co-op fixes, Sep 4 startup/co-op/gameplay patch, Sep 5 Local Co-op Fatal Error hotfix, Sep 7 Co-op, Progression, and Performance Improvements hotfix, and the Sep 9 Puzzle Progression and Local Co-op Fixes hotfix.`,
+    summary: `WheelMates Patch Notes: Launch-Week Hotfixes (Sep 1-9, 2026)`,
     hero: {
-      subtitle: `WheelMates Patch Notes: Launch-Week Hotfixes (Sep 1-7, 2026)`,
+      subtitle: `WheelMates Patch Notes: Launch-Week Hotfixes (Sep 1-9, 2026)`,
       ctas: [],
     },
-    quickAnswer: `WheelMates Patch Notes: Launch-Week Hotfixes (Sep 1-7, 2026)`,
+    quickAnswer: `WheelMates Patch Notes: Launch-Week Hotfixes (Sep 1-9, 2026)`,
     keyFacts: [
-      {label: "Research date", value: "2026-09-09"},
+      {label: "Research date", value: "2026-09-14"},
       {label: "Source tier", value: "Official Steam store + Firevolt channels"},
       {label: "Status", value: "complete"},
     ],
     modules: [
-      { id: "patch-notes-quick-answer", type: "prose", heading: `Quick Answer`, body: `Launch-week WheelMates patch notes posted on the Steam Community hub are Sep 1, 2026 "Hotfix: Login Issue Fixed", Sep 2, 2026 "Hotfix: Progression and Co-op Fixes", Sep 4, 2026 "Hotfix: Startup, Co-op, and Gameplay Fixes", Sep 5, 2026 "Hotfix: Local Co-op Fatal Error", and Sep 7, 2026 "Hotfix: Co-op, Progression, and Performance Improvements". The Sep 5 and Sep 7 hotfix posts both restate the recurring version-matching prerequisite: both copies of the game must be running the same build before joining an online session, with the version number visible in the lower-left corner of the main menu. The pinned LAUNCH FAQ and BUG REPORTS & FEEDBACK threads on the same hub are the official channels where Firevolt collects new reports and announces follow-up fixes, and any future hotfix lands as a Steam news post on the Steam store news tab.
+      { id: "patch-notes-quick-answer", type: "prose", heading: `Quick Answer`, body: `Launch-week WheelMates patch notes posted on the Steam Community hub are Sep 1, 2026 "Hotfix: Login Issue Fixed", Sep 2, 2026 "Hotfix: Progression and Co-op Fixes", Sep 4, 2026 "Hotfix: Startup, Co-op, and Gameplay Fixes", Sep 5, 2026 "Hotfix: Local Co-op Fatal Error", Sep 7, 2026 "Hotfix: Co-op, Progression, and Performance Improvements", and Sep 9, 2026 "Hotfix: Puzzle Progression and Local Co-op Fixes". The Sep 5 and Sep 7 hotfix posts both restate the recurring version-matching prerequisite: both copies of the game must be running the same build before joining an online session, with the version number visible in the lower-left corner of the main menu. The pinned LAUNCH FAQ and BUG REPORTS & FEEDBACK threads on the same hub are the official channels where Firevolt collects new reports and announces follow-up fixes, and any future hotfix lands as a Steam news post on the Steam store news tab.
 
-## Latest WheelMates patch notes (Sep 7, 2026)
+## Latest WheelMates patch notes (Sep 9, 2026)
 
-The newest WheelMates patch note is "Hotfix: Co-op, Progression, and Performance Improvements", dated September 7, 2026 on the Steam Community hub for AppID 3905450. The full bulleted list as posted by Firevolt covers seven distinct fixes plus a backend addition:
+The newest WheelMates patch note is "Hotfix: Puzzle Progression and Local Co-op Fixes", dated September 9, 2026 on the Steam Community hub for AppID 3905450. The full bulleted list as posted by Firevolt covers three fixes that close the remaining Backyard soft lock that survived the Sep 7 build and restore save-game visual effects that previously broke on reload:
+
+- Backyard soft-lock close.
+- Save-game visual restoration for puzzle states that broke on reload.
+- Local-coop antenna display fix.
+
+The Sep 9 hotfix is the only launch-week entry that touches the Backyard soft-lock close, the save-game visual restoration, and the local-coop antenna display fix. Launch-week Steam Community discussions "STUCK IN GARAGE FOR SECOND AND THIRD PUMP" by Lupo_-_ (10 hr ago, 2 replies as of 2026-09-14) and "Cant load saved game with friend." by nauGhty (8 hr ago, 2 replies as of 2026-09-14) line up with the Backyard soft-lock close and the save-game visual restoration scope respectively; the full bullet list is on the Steam Community hub post itself, and the Steam store news tab mirrors the same content.
+
+## Sep 7, 2026 Co-op, Progression, and Performance Improvements hotfix
+
+The Sep 7, 2026 "Hotfix: Co-op, Progression, and Performance Improvements" entry ships seven distinct fixes plus a backend addition:
 
 - Backyard performance and environment fixes.
 - Backyard antenna puzzle progression fix.
@@ -1539,11 +1593,15 @@ The Steam store news tab for AppID 3905450 and the Steam Community hub news feed
 
 ### Is there a public roadmap for WheelMates patches?
 
-A public roadmap has not been announced as of 2026-09-09. Firevolt communicates upcoming fixes through the BUG REPORTS & FEEDBACK pinned thread on the Steam Community hub.
+A public roadmap has not been announced as of 2026-09-14. Firevolt communicates upcoming fixes through the BUG REPORTS & FEEDBACK pinned thread on the Steam Community hub.
 
 ### Do the hotfixes break my save file?
 
-The launch-week hotfixes (Sep 1, 2, 4, 5, and 7, 2026) preserve existing save files. Firevolt has not published any save-breaking change in the first week of release.
+The launch-week hotfixes (Sep 1, 2, 4, 5, 7, and 9, 2026) preserve existing save files. Firevolt has not published any save-breaking change in the first nine days of release.
+
+### What does the Sep 9, 2026 "Hotfix: Puzzle Progression and Local Co-op Fixes" actually fix?
+
+The Sep 9, 2026 hotfix ships three fixes: the Backyard soft-lock close, the save-game visual restoration for puzzle states that broke on reload, and the local-coop antenna display fix. The Backyard soft-lock close and the save-game visual restoration match the "STUCK IN GARAGE FOR SECOND AND THIRD PUMP" and "Cant load saved game with friend." Steam Community discussion threads that surfaced on 2026-09-14.
 
 ### What does the Sep 7, 2026 "Hotfix: Co-op, Progression, and Performance Improvements" actually fix?
 
@@ -1556,30 +1614,32 @@ The Sep 5, 2026 hotfix closes the launch fatal error some players hit when start
 ### Which hotfix fixed the Sep 2 / Sep 4 issues like the NeuroVoids collision or the Game of Tag timer cap?
 
 The NeuroVoids collision, missing Rope Swing for the joiner, repeated D-pad inputs on DualSense/DualShock 4, audio issues, and steep-slope vehicle behavior all landed in the Sep 2, 2026 "Hotfix: Progression and Co-op Fixes". The Intel AI Boost startup crash, host AFK Play-button disappearance, Shed/Backyard three-antenna puzzle, red cooperative lever disappearance, Phase Shifter gamepad input, Game of Tag 40-second cap, and scannable-object achievement all landed in the Sep 4, 2026 "Hotfix: Startup, Co-op, and Gameplay Fixes".` },
-      { id: "patch-notes-sources", type: "prose", heading: `Sources`, body: `- [Steam Community hub for AppID 3905450](https://steamcommunity.com/app/3905450) - \`official/store\` - checked 2026-09-09 - Source of the Sep 1, Sep 2, Sep 4, Sep 5, and Sep 7, 2026 hotfix posts, the LAUNCH FAQ pinned post, and the BUG REPORTS & FEEDBACK pinned thread. Both the Sep 5 and Sep 7, 2026 posts restate the version-matching prerequisite for every co-op session.
-- [Steam store news tab for AppID 3905450](https://store.steampowered.com/news/app/3905450) - \`official/store\` - checked 2026-09-09 - Mirrors the same Sep 1, Sep 2, Sep 4, Sep 5, and Sep 7, 2026 WheelMates patch notes as a Steam news feed.
-- [Steam store page for WheelMates (AppID 3905450)](https://store.steampowered.com/app/3905450/WheelMates/) - \`official/store\` - checked 2026-09-09 - Confirms the launch date (Sep 1, 2026), the 21 Steam Achievements referenced by the Sep 2 progression fix, and the co-op features patched on Sep 2, Sep 4, Sep 5, and Sep 7.
-- [Steam Community discussions (BUG REPORTS & FEEDBACK pinned thread)](https://steamcommunity.com/app/3905450/discussions) - \`official/store\` - checked 2026-09-09 - "Pressing A on a second controller in Local play mode gives a fatal error" by Ermano (13 replies on 2026-09-07), "Cant load saved game with friend" by nauGhty (14 min ago on 2026-09-07), and "Press any key" reports after the Sep 5 hotfix confirm that the second-controller fatal error and the local co-op regressions are still active even after the Sep 5, 2026 Local Co-op Fatal Error hotfix shipped and are addressed by the Sep 7, 2026 hotfix.
-- [Official Discord invite](https://discord.com/invite/wheelmates) - \`community/video\` - checked 2026-09-09 - Where Firevolt posts release-day announcements that complement the Steam patch note posts.
-- [Verified official X handle @wheelmatesgame](https://x.com/wheelmatesgame) - \`community/video\` - checked 2026-09-09 - Verified official channel for devlog updates that cross-reference the Steam patch note posts.` },
+      { id: "patch-notes-sources", type: "prose", heading: `Sources`, body: `- [Steam Community hub for AppID 3905450](https://steamcommunity.com/app/3905450) - \`official/store\` - checked 2026-09-14 - Source of the Sep 1, Sep 2, Sep 4, Sep 5, Sep 7, and Sep 9, 2026 hotfix posts, the LAUNCH FAQ pinned post, and the BUG REPORTS & FEEDBACK pinned thread. Both the Sep 5 and Sep 7, 2026 posts restate the version-matching prerequisite for every co-op session.
+- [Steam Community hub news tab for AppID 3905450](https://steamcommunity.com/app/3905450/allnews/) - \`official/store\` - checked 2026-09-14 - The Sep 9, 2026 "Hotfix: Puzzle Progression and Local Co-op Fixes" post appears at the top of the Firevolt announcement list, above the Sep 7 entry.
+- [Steam store news tab for AppID 3905450](https://store.steampowered.com/news/app/3905450) - \`official/store\` - checked 2026-09-14 - Mirrors the same Sep 1, Sep 2, Sep 4, Sep 5, Sep 7, and Sep 9, 2026 WheelMates patch notes as a Steam news feed.
+- [Steam store page for WheelMates (AppID 3905450)](https://store.steampowered.com/app/3905450/WheelMates/) - \`official/store\` - checked 2026-09-14 - Confirms the launch date (Sep 1, 2026), the 21 Steam Achievements referenced by the Sep 2 progression fix, and the co-op features patched on Sep 2, Sep 4, Sep 5, Sep 7, and Sep 9.
+- [Steam Community discussions (BUG REPORTS & FEEDBACK pinned thread)](https://steamcommunity.com/app/3905450/discussions) - \`official/store\` - checked 2026-09-14 - "STUCK IN GARAGE FOR SECOND AND THIRD PUMP" by Lupo_-_ (10 hr ago, 2 replies as of 2026-09-14) and "Cant load saved game with friend." by nauGhty (8 hr ago, 2 replies as of 2026-09-14) line up with the Sep 9 Backyard soft-lock close and save-game visual restoration scope; "Controllers still not working in local game" by Foxx (16 hr ago as of 2026-09-14) and "Помогите, не могу найти последние шестерёнку и карту памяти в пустоте" by Samael (10 hr ago as of 2026-09-14) reinforce the local-coop antenna and neuro-void collectible context.
+- [Official Discord invite](https://discord.com/invite/wheelmates) - \`community/video\` - checked 2026-09-14 - Where Firevolt posts release-day announcements that complement the Steam patch note posts.
+- [Verified official X handle @wheelmatesgame](https://x.com/wheelmatesgame) - \`community/video\` - checked 2026-09-14 - Verified official channel for devlog updates that cross-reference the Steam patch note posts.` },
       { id: "patch-notes-internal-links", type: "prose", heading: `Internal Link Requirements`, body: `- \`Release and platforms page\` -> \`/release/\` - Confirms the Sep 1, 2026 launch date that anchors the first hotfix in this changelog.
-- \`Co-op and split screen page\` -> \`/co-op/\` - Explains the Friend's Pass and co-op features that the Sep 2, Sep 4, Sep 5, and Sep 7 hotfixes targeted, plus the recurring version-matching prerequisite and the Sep 7 "Press any key" main-menu freeze and cars-continuing-to-move-while-Settings-or-Journal-open fixes.
-- \`Single player page\` -> \`/single-player/\` - Explains how solo players are affected by the Sep 5 Local Co-op Fatal Error fix, the Sep 7 "Press any key" main-menu freeze fix, and the version-matching prerequisite.
-- \`Puzzle walkthrough page\` -> \`/puzzle-walkthrough/\` - Mirrors the Backyard antenna puzzle and Garage button activation fix entries from the Sep 7, 2026 hotfix.
+- \`Co-op and split screen page\` -> \`/co-op/\` - Explains the Friend's Pass and co-op features that the Sep 2, Sep 4, Sep 5, Sep 7, and Sep 9 hotfixes targeted, plus the recurring version-matching prerequisite, the Sep 7 "Press any key" main-menu freeze and cars-continuing-to-move-while-Settings-or-Journal-open fixes, and the Sep 9 local-coop antenna display fix.
+- \`Single player page\` -> \`/single-player/\` - Explains how solo players are affected by the Sep 5 Local Co-op Fatal Error fix, the Sep 7 "Press any key" main-menu freeze fix, the Sep 9 save-game visual restoration step, and the version-matching prerequisite.
+- \`Puzzle walkthrough page\` -> \`/puzzle-walkthrough/\` - Mirrors the Backyard antenna puzzle and Garage button activation fix entries from the Sep 7, 2026 hotfix and the Backyard soft-lock close from the Sep 9, 2026 hotfix.
 - \`RC car gadgets page\` -> \`/rc-car-gadgets/\` - Mirrors the Phase Shifter visual fix and lightning visual fix entries from the Sep 7, 2026 hotfix.
 - \`Steam Deck page\` -> \`/steam-deck/\` - Mirrors the Phase Shifter visual fix and the new backend crash-reporting note from the Sep 7, 2026 hotfix.
 - \`Reviews and impressions page\` -> \`/reviews/\` - Tracks how the launch-week Steam user review band shifts in response to each hotfix.
-- \`Co-op setup and troubleshooting page\` -> \`/co-op-troubleshooting/\` - Step-by-step online co-op setup, Friend's Pass install, invite flow, "Waiting for Player" stall fixes, and the Steam Remote Play Together desync-safe fallback that the version-matching prerequisite restated on Sep 5 and Sep 7, 2026` },
-      { id: "patch-notes-fact-boundaries", type: "prose", heading: `Fact Boundaries`, body: `- Each hotfix is date-stamped from the Steam Community hub news post as observed 2026-09-09. Future hotfixes will appear on the same Steam store news tab.
-- A public post-launch roadmap, console patch parity, and explicit save-format changes are Not announced as of 2026-09-09.
-- Console versions of WheelMates are Not announced as of 2026-09-09, so console patch parity is not addressed.
-- Console versions of WheelMates (PS5, Xbox Series X|S, Xbox One, Nintendo Switch, Nintendo Switch 2) are Not announced as of 2026-09-09.` },
+- \`Co-op setup and troubleshooting page\` -> \`/co-op-troubleshooting/\` - Step-by-step online co-op setup, Friend's Pass install, invite flow, "Waiting for Player" stall fixes, the save-game visual restoration reload step added on Sep 9, and the Steam Remote Play Together desync-safe fallback that the version-matching prerequisite restated on Sep 5 and Sep 7, 2026` },
+      { id: "patch-notes-fact-boundaries", type: "prose", heading: `Fact Boundaries`, body: `- Each hotfix is date-stamped from the Steam Community hub news post as observed 2026-09-14. Future hotfixes will appear on the same Steam store news tab.
+- The Sep 9, 2026 "Hotfix: Puzzle Progression and Local Co-op Fixes" bullet list is sourced from the Steam Community hub news post; the exact wording on the three fixes is preserved without speculation.
+- A public post-launch roadmap, console patch parity, and explicit save-format changes are Not announced as of 2026-09-14.
+- Console versions of WheelMates are Not announced as of 2026-09-14, so console patch parity is not addressed.
+- Console versions of WheelMates (PS5, Xbox Series X|S, Xbox One, Nintendo Switch, Nintendo Switch 2) are Not announced as of 2026-09-14.` },
     ],
     faqIds: [],
     relatedPageIds: [],
     schemaTypes: ["Article", "BreadcrumbList"],
     sourceStatus: "official",
-    lastReviewed: "2026-09-09",
+    lastReviewed: "2026-09-05",
   },
   {
     id: "fixed-community-discord",
