@@ -14,7 +14,7 @@ export const sitePages: PageContent[] = [
     h1: `${site.gameName} Wiki`,
     seoTitle: `${site.gameName} Wiki | Verified Launch Facts`,
     metaDescription:
-      `${site.gameName} wiki: verified launch facts from the official Steam store page (AppID 3905450), the Firevolt landing hub, and the Steam Community hub news feed dated 2026-09-14, including Firevolt's Aug 21, 2026 "Q&A with the Devs" first-party source for the console window and Steam Deck support.`,
+      `${site.gameName} wiki: verified launch facts from the official Steam store page (AppID 3905450), the Firevolt landing hub, and the Steam Community hub news feed dated 2026-09-17, including Firevolt's Aug 21, 2026 "Q&A with the Devs" first-party source for the console window and Steam Deck support, and Firevolt's Sep 2026 "What's Next for Wheelmates" Steam Community post that confirms Nintendo Switch 2 and the new-content-for-finished-players pillar.`,
     summary:
       "Verified launch-week facts hub for WheelMates: developer, publisher, release date, features, supported languages, and supported regions.",
     hero: {
@@ -27,13 +27,14 @@ export const sitePages: PageContent[] = [
       ],
     },
     quickAnswer:
-      `${site.gameName} is the 2-player co-op RC car driving adventure developed and published by Firevolt, released on Steam (AppID 3905450) on September 1, 2026. PS5, Xbox Series X|S, and Nintendo Switch versions are targeted for the first half of 2027 per Firevolt's Aug 21, 2026 Steam Community Q&A.`,
+      `${site.gameName} is the 2-player co-op RC car driving adventure developed and published by Firevolt, released on Steam (AppID 3905450) on September 1, 2026. PS5, Xbox Series X|S, Nintendo Switch, and Nintendo Switch 2 versions are targeted for the first half of 2027 per Firevolt's Aug 21, 2026 "Q&A with the Devs" and Sep 2026 "What's Next for Wheelmates" Steam Community posts.`,
     keyFacts: [
       { label: "Developer / publisher", value: "Firevolt" },
       { label: "Steam AppID", value: "3905450" },
       { label: "Release date", value: "September 1, 2026" },
       { label: "Confirmed platform", value: "Windows 10/11 64-bit" },
-      { label: "First-party console window", value: "First half of 2027 (PS5, Xbox Series X|S, Nintendo Switch)" },
+      { label: "First-party console window", value: "First half of 2027 (PS5, Xbox Series X|S, Nintendo Switch, Nintendo Switch 2)" },
+      { label: "Post-launch content pillar", value: "New content for players who have finished the story (Firevolt \"What's Next for Wheelmates\" Steam Community post, Sep 2026); specifics kept under wraps as of 2026-09-17" },
     ],
     modules: [
       {
@@ -49,7 +50,7 @@ export const sitePages: PageContent[] = [
         heading: "Verified launch facts",
         columns: [
           { key: "field", label: "Field" },
-          { key: "value", label: "Value (2026-09-14)" },
+          { key: "value", label: "Value (2026-09-17)" },
         ],
         rows: [
           { field: "Developer", value: "Firevolt" },
@@ -59,25 +60,34 @@ export const sitePages: PageContent[] = [
           { field: "Confirmed platform", value: "Windows 10/11 64-bit (PC)" },
           { field: "Players", value: "2-player co-op + single-player; strictly 2-player co-op per Firevolt Q&A Aug 21, 2026" },
           { field: "PS5 / Xbox Series X|S / Nintendo Switch", value: "First half of 2027 (Firevolt Q&A Aug 21, 2026 Steam Community)" },
-          { field: "Steam Deck", value: "Developer-confirmed (Firevolt Q&A Aug 21, 2026 Steam Community); Valve banner still pending as of 2026-09-14" },
+          { field: "Nintendo Switch 2", value: "First half of 2027 (Firevolt \"What's Next for Wheelmates\" Steam Community post, Sep 2026)" },
+          { field: "Post-launch content pillar", value: "New content for players who have finished the story; details kept under wraps by the WheelMates Team as of 2026-09-17" },
+          { field: "Steam Deck", value: "Developer-confirmed (Firevolt Q&A Aug 21, 2026 Steam Community); Valve banner still pending as of 2026-09-17" },
           { field: "Steam Achievements", value: "21" },
           { field: "Supported languages", value: "14 interface + subtitle" },
-          { field: "First-party source", value: "Steam store AppID 3905450 + Firevolt \"Q&A with the Devs\" Steam Community post on August 21, 2026" },
+          { field: "First-party source", value: "Steam store AppID 3905450 + Firevolt \"Q&A with the Devs\" Steam Community post on August 21, 2026 + Firevolt \"What's Next for Wheelmates\" Steam Community post, Sep 2026" },
         ],
+      },
+      {
+        id: "forward-look",
+        type: "prose",
+        heading: "Forward look: new content for finished players",
+        body:
+          "Firevolt's \"What's Next for Wheelmates\" Steam Community post on the Steam Community hub news feed (checked 2026-09-17) confirms a separate content pillar aimed at players who have already finished the story. The post describes the pillar but does not publish specific features, dates, or pricing; details are kept under wraps by the WheelMates Team as of 2026-09-17. The current confirmed platform is Windows 10/11 64-bit, and the same first-half-of-2027 console window now covers PS5, Xbox Series X|S, Nintendo Switch, and Nintendo Switch 2.",
       },
       {
         id: "wiki-links",
         type: "prose",
         heading: "Cross-references",
         body:
-          "Release and platform status lives on /release/ (including the Aug 21, 2026 first-half-of-2027 console window), PC hardware requirements on /system-requirements/ (with the Firevolt developer-confirmed Steam Deck support sentence), and co-op / split screen details on /co-op/.",
+          "Release and platform status lives on /release/ (including the Aug 21, 2026 first-half-of-2027 console window and the new Switch 2 confirmation from Firevolt's Sep 2026 \"What's Next for Wheelmates\" post), PC hardware requirements on /system-requirements/ (with the Firevolt developer-confirmed Steam Deck support sentence), and co-op / split screen details on /co-op/ (including the crossplay-with-PC wording that follows the new console preparation list).",
       },
     ],
     faqIds: [],
     relatedPageIds: ["guides", "fixed-release-platforms", "fixed-system-requirements", "fixed-single-player", "fixed-steam-deck"],
     schemaTypes: ["CollectionPage", "BreadcrumbList"],
     sourceStatus: "official",
-    lastReviewed: "2026-09-14",
+    lastReviewed: "2026-09-17",
   },
   {
     id: "guides",
@@ -151,7 +161,7 @@ export const sitePages: PageContent[] = [
     h1: `${site.gameName} FAQ`,
     seoTitle: `${site.gameName} FAQ | Common Launch Questions`,
     metaDescription:
-      `${site.gameName} FAQ: release date, co-op modes, supported languages, system requirements, and console availability (PS5, Xbox Series X|S, and Nintendo Switch targeted for first half of 2027 per Firevolt's Aug 21, 2026 Steam Community Q&A), all sourced from the official Steam store page and Steam Community hub news feed dated 2026-09-14.`,
+      `${site.gameName} FAQ: release date, co-op modes, supported languages, system requirements, and console availability (PS5, Xbox Series X|S, Nintendo Switch, and Nintendo Switch 2 targeted for first half of 2027 per Firevolt's Aug 21, 2026 "Q&A with the Devs" and Sep 2026 "What's Next for Wheelmates" Steam Community posts), all sourced from the official Steam store page and Steam Community hub news feed dated 2026-09-17.`,
     summary:
       "Compact FAQ covering release, co-op, languages, hardware, and platform availability.",
     hero: {
@@ -164,7 +174,7 @@ export const sitePages: PageContent[] = [
       ],
     },
     quickAnswer:
-      "WheelMates is the 2-player co-op RC car driving adventure by Firevolt, launched on Steam (AppID 3905450) on September 1, 2026 for Windows 10/11 64-bit. PS5, Xbox Series X|S, and Nintendo Switch are targeted for the first half of 2027 per Firevolt's Aug 21, 2026 Steam Community Q&A.",
+      "WheelMates is the 2-player co-op RC car driving adventure by Firevolt, launched on Steam (AppID 3905450) on September 1, 2026 for Windows 10/11 64-bit. PS5, Xbox Series X|S, Nintendo Switch, and Nintendo Switch 2 are targeted for the first half of 2027 per Firevolt's Aug 21, 2026 \"Q&A with the Devs\" and Sep 2026 \"What's Next for Wheelmates\" Steam Community posts.",
     keyFacts: [
       { label: "FAQ source", value: "Official Steam store + Firevolt channels" },
       { label: "Schema", value: "FAQ JSON-LD enabled" },
@@ -176,21 +186,21 @@ export const sitePages: PageContent[] = [
         type: "prose",
         heading: "FAQ policy",
         body:
-          "Keep answers short, source-aware, and easy to update. Anything not directly verifiable on the Steam store, wheelmatesgame.com, the Steam Community hub news feed, or the official Discord / X / YouTube channels is labeled Not announced as of 2026-09-14.",
+          "Keep answers short, source-aware, and easy to update. Anything not directly verifiable on the Steam store, wheelmatesgame.com, the Steam Community hub news feed, or the official Discord / X / YouTube channels is labeled Not announced as of 2026-09-17.",
       },
       {
         id: "faq-launch",
         type: "prose",
         heading: "Launch FAQ",
         body:
-          "### Is WheelMates out now?\n\nYes. WheelMates launched on Steam (AppID 3905450) on September 1, 2026 for Windows 10/11 64-bit.\n\n### Do both players need to own a copy?\n\nNo. The official Steam description states Friend's Pass lets a friend join for free.\n\n### Is there a console version?\n\nFirevolt's \"Q&A with the Devs\" Steam Community post on August 21, 2026 targets PlayStation 5, Xbox Series X|S, and Nintendo Switch for the first half of 2027. Xbox One, Nintendo Switch 2, and PlayStation 4 versions are not announced as of 2026-09-14, and no exact console release date, pricing, or SKU page is published yet.",
+          "### Is WheelMates out now?\n\nYes. WheelMates launched on Steam (AppID 3905450) on September 1, 2026 for Windows 10/11 64-bit.\n\n### Do both players need to own a copy?\n\nNo. The official Steam description states Friend's Pass lets a friend join for free.\n\n### Is there a console version?\n\nFirevolt's \"Q&A with the Devs\" Steam Community post on August 21, 2026 targets PlayStation 5, Xbox Series X|S, and Nintendo Switch for the first half of 2027. Firevolt's \"What's Next for Wheelmates\" Steam Community post on the Steam Community hub news feed (checked 2026-09-17) adds Nintendo Switch 2 to the same console preparation list with the same first-half-of-2027 framing. Xbox One and PlayStation 4 versions are not announced as of 2026-09-17, and no exact console release date, pricing, or SKU page is published yet. Crossplay with PC is not announced as of 2026-09-17.\n\n### Is more content planned after the story?\n\nYes. Firevolt's \"What's Next for Wheelmates\" Steam Community post (checked 2026-09-17) confirms a new-content-for-finished-players pillar, but specific features, dates, and pricing are kept under wraps by the WheelMates Team as of 2026-09-17. Watch the Steam Community hub news feed for the next first-party announcement before planning around any third-party list of planned features.",
       },
     ],
     faqIds: [],
     relatedPageIds: ["fixed-release-platforms", "fixed-co-op-split-screen", "fixed-system-requirements", "about"],
     schemaTypes: ["FAQPage", "BreadcrumbList"],
     sourceStatus: "internal",
-    lastReviewed: "2026-09-14",
+    lastReviewed: "2026-09-17",
   },
   {
     id: "about",
