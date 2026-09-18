@@ -1315,66 +1315,90 @@ The numbers 1, 2, 3, 4, 5 are pressed in left-to-right order along the hint wall
     url: "/achievements",
     pageType: "guides",
     presentation: {shell: "content", variant: "reading-right-rail"},
-    h1: `WheelMates Achievements: The 21 Steam Achievements Explained`,
-    seoTitle: `WheelMates Achievements: Full List and Unlock Tips`,
-    metaDescription: `WheelMates achievements explained: the 21 Steam trophies, the Global Achievements tracker, and launch-week unlock tips for tricky entries like Seek and Scan.`,
-    summary: `WheelMates Achievements: The 21 Steam Achievements Explained`,
+    h1: `WheelMates Achievements: All 21 Steam Trophies, Percentages, and Unlock Tips`,
+    seoTitle: `WheelMates Achievements: All 21 Steam Trophies and Unlock Tips`,
+    metaDescription: `All 21 WheelMates Steam achievements grouped by bucket with live global completion percentages from the Steam public stats page and unlock-condition tips for every trophy.`,
+    summary: `WheelMates Achievements: All 21 Steam Trophies, Percentages, and Unlock Tips`,
     hero: {
-      subtitle: `WheelMates Achievements: The 21 Steam Achievements Explained`,
+      subtitle: `WheelMates Achievements: All 21 Steam Trophies, Percentages, and Unlock Tips`,
       ctas: [],
     },
-    quickAnswer: `WheelMates Achievements: The 21 Steam Achievements Explained`,
+    quickAnswer: `WheelMates ships 21 Steam trophies, ranging from Grapple at 86.0% down to 100% Mates and Seek & Destroy at 0.6% on the Steam public stats page (checked 2026-09-18). The 21 trophies fall into four buckets: story chapter completion, gadget unlock, completionist collectibles, and discovery / activity. Seek & Scan, Hallway Chip, and co-op completion trophies are the launch-week entries that still refuse to unlock automatically on some saves.`,
     keyFacts: [
-      {label: "Research date", value: "2026-09-05"},
-      {label: "Source tier", value: "Official Steam store + Firevolt channels"},
+      {label: "Research date", value: "2026-09-18"},
+      {label: "Source tier", value: "Official Steam store + Steam public stats page"},
       {label: "Status", value: "complete"},
     ],
     modules: [
-      { id: "achievements-quick-answer", type: "prose", heading: `Quick Answer`, body: `WheelMates achievements total 21 Steam trophies as of 2026-09-05, and the Steam Community hub surfaces a Global Achievements tracker that ranks the rarest unlocks. Per-achievement tips below are date-stamped "as observed 2026-09-05" and limited to community-confirmed patterns, such as the Seek and Scan trophy that launch-window players have reported not unlocking automatically. This page summarizes how many achievements WheelMates has, where the official tracker lives, and which trophies the launch-week community has flagged as hard to unlock.
+      { id: "achievements-quick-answer", type: "prose", heading: `Quick Answer`, body: `WheelMates has 21 Steam trophies as of 2026-09-18, and the Steam Community Global Achievements tracker publishes a live completion percentage for every one of them. The full roster below groups the 21 trophies into four same-goal buckets - story chapter completion, gadget unlock, completionist collectibles, and discovery / activity - so completionist players can plan a route instead of guessing which trophies are missable. Percentages are taken from the Steam public stats page for AppID 3905450 and are ranked from most to least unlocked inside each bucket.
 
-## How many WheelMates achievements are there?
+## How to read this roster
 
-The Steam store page for WheelMates (AppID 3905450) lists exactly 21 Steam Achievements at launch, and the count has held steady through the first week of release. Firevolt has not announced any post-launch addition to the achievement list as of 2026-09-05, so the 21-trophy total should be treated as the launch baseline until the developer publishes a Steam news post or an updated store listing.
+- Trophy name is the public Steam name. Where Firevolt's in-game description is shorter than the Steam entry, the Steam description is used.
+- Global % is the live completion percentage on the Steam public stats page for AppID 3905450, checked 2026-09-18.
+- Source page is the existing wheelmates.pro page that already covers the underlying mechanic.
+- Known issue flags the trophies that the launch-week community has reported failing to unlock automatically; those entries are expanded in the launch-week known-issues footnote below.
 
-The 21-trophy count comes from the same Steam features banner that confirms Full Controller Support, Online Co-op, Shared/Split Screen Co-op, and Family Sharing. Reading the achievements tab on the Steam store page is the fastest way to see every WheelMates achievement in one place, including the icon, the internal Steam name, and the in-game description that Firevolt wrote for each trophy.
+This page does not replace the Steam store achievements tab or the Global Achievements tracker; it summarizes what both already publish and links each trophy to the existing site page that owns its mechanic. Firevolt has not published an official per-achievement unlock guide as of 2026-09-18, so any unlock-condition note on this page is community-confirmed.` },
+      { id: "achievements-story", type: "data-table", heading: `Story chapter completion (6 trophies)`, columns: [
+          { key: "trophy", label: "Trophy" },
+          { key: "description", label: "Description" },
+          { key: "global", label: "Global % (2026-09-18)" },
+          { key: "source", label: "Source page" },
+        ], rows: [
+          { trophy: "Kitchen", description: "Complete the Kitchen level.", global: "80.3%", source: "/single-player/" },
+          { trophy: "Hallway", description: "Complete the Hallway level.", global: "62.3%", source: "/single-player/" },
+          { trophy: "Garage", description: "Complete the Garage level.", global: "37.5%", source: "/single-player/" },
+          { trophy: "Shed", description: "Complete the Shed level.", global: "18.7%", source: "/single-player/" },
+          { trophy: "Backyard", description: "Complete the Backyard level.", global: "15.9%", source: "/single-player/" },
+          { trophy: "Neuro-Void: Fragments", description: "Complete the Neuro-Void: Fragments level.", global: "30.3%", source: "/puzzle-walkthrough/" },
+        ] },
+      { id: "achievements-gadgets", type: "data-table", heading: `Gadget unlock (5 trophies)`, columns: [
+          { key: "trophy", label: "Trophy" },
+          { key: "description", label: "Description" },
+          { key: "global", label: "Global % (2026-09-18)" },
+          { key: "source", label: "Source page" },
+        ], rows: [
+          { trophy: "Grapple", description: "Obtain the Grapple ability.", global: "86.0%", source: "/rc-car-gadgets/" },
+          { trophy: "Magnetic Grabber", description: "Obtain the Magnetic Grabber ability.", global: "49.3%", source: "/rc-car-gadgets/" },
+          { trophy: "Magnet Wheels", description: "Obtain the Magnet Wheels ability.", global: "36.0%", source: "/rc-car-gadgets/" },
+          { trophy: "Paintgun", description: "Obtain the Paintgun ability.", global: "21.7%", source: "/rc-car-gadgets/" },
+          { trophy: "Phase Shifter", description: "Obtain the Phase Shifter ability.", global: "19.9%", source: "/rc-car-gadgets/" },
+        ] },
+      { id: "achievements-collectibles", type: "data-table", heading: `Completionist collectibles (5 trophies)`, columns: [
+          { key: "trophy", label: "Trophy" },
+          { key: "description", label: "Description" },
+          { key: "global", label: "Global % (2026-09-18)" },
+          { key: "source", label: "Source page" },
+        ], rows: [
+          { trophy: "Seek & Scan", description: "Find all the scannable objects.", global: "3.9%", source: "/puzzle-walkthrough/" },
+          { trophy: "Charge to full capacity!", description: "Collect all the Neuro-Cores.", global: "1.3%", source: "/achievements/" },
+          { trophy: "Ultra-Fine-tuning", description: "Collect all the Custom parts.", global: "1.0%", source: "/achievements/" },
+          { trophy: "Story driven", description: "Collect all the Neuro-Memory Cards.", global: "1.0%", source: "/achievements/" },
+          { trophy: "100% Mates", description: "Complete the game 100% and find all the collectibles.", global: "0.6%", source: "/achievements/" },
+        ] },
+      { id: "achievements-activity", type: "data-table", heading: `Discovery and activity (5 trophies)`, columns: [
+          { key: "trophy", label: "Trophy" },
+          { key: "description", label: "Description" },
+          { key: "global", label: "Global % (2026-09-18)" },
+          { key: "source", label: "Source page" },
+        ], rows: [
+          { trophy: "What does Everett have to say about it?", description: "Listen to all the Neuro-nodes.", global: "6.8%", source: "/achievements/" },
+          { trophy: "Mini-games lovers", description: "Play all the mini-games.", global: "2.3%", source: "/achievements/" },
+          { trophy: "Plug into an outlet", description: "No description published on the Steam public stats page.", global: "1.2%", source: "/achievements/" },
+          { trophy: "Right where they're belongs to be", description: "But where is the water?", global: "0.8%", source: "/achievements/" },
+          { trophy: "Seek & Destroy", description: "Break 50 items.", global: "0.6%", source: "/achievements/" },
+        ] },
+      { id: "achievements-known-issues", type: "callout", tone: "caution", title: "Launch-week known-issue footnote: trophies that refuse to unlock automatically", body: `Three trophies are still failing to fire on some saves through launch week, based on Steam Community discussions as of 2026-09-18:
 
-Players who only want a high-level sense of progression can also read the percentage numbers that Steam publishes per trophy. Those percentages come from the Steam Community's own player pool, so they are most useful as a relative ranking ("trophy X is rarer than trophy Y") rather than as an absolute claim about the wider WheelMates community.
+- Seek & Scan (3.9%): launch-week players report the trophy does not always unlock the first time the triggering action completes. The community workaround is to repeat the relevant scan step, save and reload, then check the Global Achievements tracker before assuming the trophy is broken. The unlock is described as instant once it does fire. /puzzle-walkthrough/ covers the scannable-object set the trophy is tied to.
+- Hallway Chip (community nickname for the Hallway fragment set tied to the Hallway and Neuro-Void: Fragments trophies at 62.3% and 30.3%): players report the counter resets if the lab is left mid-fragment collection. The community advice is to finish the fragment set in a single sitting and reload only after exiting the lab cleanly.
+- Co-op completion trophies (chapter completion set): these only fire when the host's co-op session ends cleanly. A hotfix disconnect, a Friend's Pass drop, or a crash mid-chapter can silently block the trophy. /co-op-troubleshooting/ documents the version-matching prerequisite, the seven-step "Waiting for Player" troubleshooting order, and the Steam Remote Play Together fallback for sessions that would otherwise desync.
 
-## Global Achievements tracker
+For trophies that still will not unlock after the workarounds above, the Steam Community hub BUG REPORTS & FEEDBACK pinned post is the official intake channel for Firevolt.` },
+      { id: "achievements-faq", type: "prose", heading: `Frequently Asked Questions`, body: `### How many WheelMates achievements are there?
 
-The Steam Community hub for AppID 3905450 hosts a Global Achievements page that lists every WheelMates achievement, the percentage of players who have unlocked it, and the date the trophy was first tracked. The tracker is useful for two reasons:
-
-- It shows which trophies almost every player earns on their first run, such as the trophy tied to completing the first RC car driving adventure section.
-- It shows which trophies are stuck near the bottom of the percentage chart, which usually means a missable step, a hidden trigger, or a bug that Firevolt has not yet patched.
-
-When a launch-week player reports a trophy that refuses to unlock even after the in-game action clearly happened, the Global Achievements tracker is the first place to compare percentages. If 95 percent of players have unlocked "Seek and Scan" but one player's tracker still shows 0 percent, the trophy almost certainly failed to fire on that save, and a Steam Community thread or BUG REPORTS & FEEDBACK post is the next step.
-
-A few caveats apply to the Global Achievements tracker. Percentages reset whenever Steam recalculates its sample, and the tracker excludes players who have set their profile to private. Treat the numbers as a launch-week snapshot, not as a permanent record.
-
-## Per-achievement unlock tips as observed 2026-09-05
-
-The Steam Community discussions board has a small but active launch-week thread pool covering individual WheelMates achievements. The tips below summarize community-confirmed patterns as observed 2026-09-05. They are not a complete walkthrough, and they should be treated as community hints, not as developer-confirmed unlock paths.
-
-- Seek and Scan: multiple launch-week players report that this trophy does not always unlock the first time the triggering action completes. The community workaround is to repeat the relevant scan step, save and reload, and check the Global Achievements tracker before assuming the trophy is broken. The unlock is described as instant once it does fire.
-- Hallway Chip and the related neuro-void fragment trophies: players mention that these trophies only trigger when the entire fragment set is collected in a single session. Leaving the lab and reloading can reset the counter on some saves, so the community advice is to finish the run in one sitting.
-- Co-op completion trophies: a few trophies are tied to finishing a chapter in two-player co-op rather than single-player. The community pattern is that these only unlock when the host's session ends cleanly, so a crash, a hotfix disconnect, or a Friend's Pass drop in the middle of the chapter can silently block the trophy.
-
-Every tip above is labeled "as observed 2026-09-05" because Firevolt has not published an official achievement guide and the Steam Community discussions are the only public record so far. Before relying on any tip, check the thread date and confirm the trophy name still appears in the latest Steam Community hub post.
-
-## Achievements unannounced or hard to unlock
-
-The 21-trophy list on the Steam store is the only official list as of 2026-09-05. Firevolt has not published:
-
-- A roadmap for additional achievements beyond the launch set of 21.
-- An official per-achievement unlock guide.
-- A confirmation that the "hard to unlock" reports are bugs versus intentional missables.
-
-The recurring launch-week complaints fall into two buckets. The first bucket is the genuinely tricky trophies, where the unlock condition is hidden behind a sub-step the store description does not spell out. The second bucket is trophies that look buggy, where multiple players report the action happened but the percentage on the Global Achievements tracker never moved. The Steam Community BUG REPORTS & FEEDBACK board and the LAUNCH FAQ pinned post are the official places where Firevolt is collecting these reports, and any fix will land in a future hotfix post on the Steam Community hub.
-
-Players who want a deeper map of how WheelMates gadgets feed into trophy triggers should pair this page with the puzzle walkthrough and RC car gadget reference pages, since some of the trickier achievements only fire after a specific gadget is used in a specific room.` },
-      { id: "achievements-faq", type: "prose", heading: `Frequently Asked Questions`, body: `### Are the WheelMates achievements the same on PC and on other platforms?
-
-WheelMates achievements only exist on Steam as of 2026-09-05. PS5, Xbox Series X|S, Xbox One, Nintendo Switch, and Nintendo Switch 2 versions have not been announced, so there is no cross-platform achievement parity to confirm or deny yet.
+Exactly 21 Steam Achievements, listed in full on the Steam store page and the Global Achievements tracker for AppID 3905450. The count has held steady through launch week and Firevolt has not published a roadmap for additional post-launch achievements as of 2026-09-18.
 
 ### Why does my Global Achievements percentage show 0 percent?
 
@@ -1382,25 +1406,35 @@ The Steam Community Global Achievements tracker only counts players who have the
 
 ### Where do I report a WheelMates achievement that refuses to unlock?
 
-The Steam Community hub has a pinned BUG REPORTS & FEEDBACK thread and a LAUNCH FAQ thread. Either is an acceptable place to file the report, and Firevolt's team uses both as the official intake channels during launch week.` },
-      { id: "achievements-sources", type: "prose", heading: `Sources`, body: `- [Steam store page for WheelMates (AppID 3905450)](https://store.steampowered.com/app/3905450/WheelMates/) - \`official/store\` - checked 2026-09-05 - Confirms 21 Steam Achievements, the achievement list, and the surrounding Steam features banner (Online Co-op, Shared/Split Screen Co-op, Family Sharing).
-- [Steam Community hub for AppID 3905450](https://steamcommunity.com/app/3905450) - \`official/store\` - checked 2026-09-05 - Surfaces the Global Achievements tracker, LAUNCH FAQ, BUG REPORTS & FEEDBACK pinned posts, and the Friend's Pass guide referenced by the achievement tips.
-- [Steam Community discussions (achievement and single-player threads)](https://steamcommunity.com/app/3905450/discussions) - \`community/video\` - checked 2026-09-05 - Source of the launch-week Seek and Scan, Hallway Chip, and co-op completion trophy reports summarized above.
-- [Official Firevolt landing hub wheelmatesgame.com](https://www.wheelmatesgame.com/) - \`official/store\` - checked 2026-09-05 - Cross-references the Steam store achievement count and links to the Steam Community hub.
-- [SteamDB AppID 3905450](https://steamdb.info/app/3905450/) - \`wiki/reference\` - checked 2026-09-05 - Mirrors the 21-achievement count and Steam feature list as a structural cross-check.` },
-      { id: "achievements-internal-links", type: "prose", heading: `Internal Link Requirements`, body: `- \`RC car gadgets reference page\` -> \`/rc-car-gadgets/\` - Several achievements only fire after a specific gadget is used, so the gadgets reference explains the gadget naming used by the achievement tips.
-- \`Puzzle walkthrough page\` -> \`/puzzle-walkthrough/\` - Community achievement threads overlap with the Hallway Chip and neuro-void fragment puzzles covered on the walkthrough.
-- \`Co-op and split screen page\` -> \`/co-op/\` - Co-op completion trophies only unlock when a co-op session ends cleanly, which the co-op page explains in more detail.` },
-      { id: "achievements-fact-boundaries", type: "prose", heading: `Fact Boundaries`, body: `- Achievement count and names are taken from the Steam store AppID 3905450 page and the Steam Community hub on 2026-09-05. Any new trophies added after this date are not covered.
-- Per-achievement unlock tips are community-confirmed patterns observed in Steam Community discussions as of 2026-09-05. They are not an official Firevolt guide.
-- A formal per-achievement unlock guide, additional post-launch achievements, and any fix for the reportedly buggy trophies are Not announced as of 2026-09-05.
-- Achievements on PS5, Xbox Series X|S, Xbox One, Nintendo Switch, and Nintendo Switch 2 are Not announced as of 2026-09-05 because those platform versions have not been announced.` },
+The Steam Community hub has a pinned BUG REPORTS & FEEDBACK thread and a LAUNCH FAQ thread. Either is an acceptable place to file the report, and Firevolt's team uses both as the official intake channels during launch week.
+
+### Are WheelMates achievements the same on PC and on consoles?
+
+WheelMates achievements only exist on Steam as of 2026-09-18. PS5, Xbox Series X|S, Xbox One, Nintendo Switch, and Nintendo Switch 2 versions have been announced for the first half of 2027 by Firevolt (Aug 21, 2026 "Q&A with the Devs" and Sep 2026 "What's Next for Wheelmates" Steam Community posts), but no achievement parity or trophy list has been published for those platform builds yet.` },
+      { id: "achievements-sources", type: "prose", heading: `Sources`, body: `- [Steam public achievements stats page for AppID 3905450](https://steamcommunity.com/stats/3905450/achievements) - \`official/store\` - checked 2026-09-18 - Live global completion percentage for every one of the 21 WheelMates trophies and the public description Firevolt wrote for each trophy.
+- [Steam store page for WheelMates (AppID 3905450)](https://store.steampowered.com/app/3905450/WheelMates/) - \`official/store\` - checked 2026-09-18 - Confirms the 21-trophy count, the surrounding Steam features banner (Online Co-op, Shared/Split Screen Co-op, Family Sharing), and the achievement list linked from the store page.
+- [Steam Community hub for AppID 3905450](https://steamcommunity.com/app/3905450) - \`official/store\` - checked 2026-09-18 - Surfaces the Global Achievements tracker, LAUNCH FAQ, BUG REPORTS & FEEDBACK pinned posts, and the Friend's Pass guide referenced by the launch-week known-issue footnote.
+- [Steam Community discussions (achievement, neuro-void fragments, and co-op threads)](https://steamcommunity.com/app/3905450/discussions) - \`community/video\` - checked 2026-09-18 - Source of the Seek & Scan, Hallway Chip, Neuro-Void fragments 13/14 Custom parts, Softlock our entire safefile, Potential Softlock in Neuro-Void Area, and "Unable to enter the game in two-player online co-op" reports summarized in the launch-week known-issue footnote.
+- [Official Firevolt landing hub wheelmatesgame.com](https://www.wheelmatesgame.com/) - \`official/store\` - checked 2026-09-18 - Cross-references the Steam store achievement count and links to the Steam Community hub.
+- [SteamDB AppID 3905450](https://steamdb.info/app/3905450/) - \`wiki/reference\` - checked 2026-09-18 - Mirrors the 21-achievement count and Steam feature list as a structural cross-check.` },
+      { id: "achievements-internal-links", type: "prose", heading: `Internal Link Requirements`, body: `- \`WheelMates puzzle walkthrough page\` -> \`/puzzle-walkthrough/\` - Owns the Neuro-Void: Fragments trophy, the Seek & Scan scannable-object set, and the Hallway Chip / Neuro-Void fragment reset behavior covered in the launch-week known-issue footnote.
+- \`WheelMates RC car gadgets page\` -> \`/rc-car-gadgets/\` - Owns the five gadget trophies (Grapple, Magnet Wheels, Magnetic Grabber, Paintgun, Phase Shifter), including the Phase Shifter and lightning visual hotfixes pinned to the Sep 7 entry on /patch-notes/.
+- \`WheelMates single player page\` -> \`/single-player/\` - Anchors the Aug 21, 2026 "strictly 2-player co-op, no real solo mode" clarifier and the chapter completion trophy completion path the launch-week known-issue footnote references.
+- \`WheelMates co-op and split screen page\` -> \`/co-op/\` - High-level co-op framing; the launch-week known-issue footnote on this page points here for the chapter completion co-op-session caveat.
+- \`WheelMates co-op setup and troubleshooting page\` -> \`/co-op-troubleshooting/\` - Step-by-step online co-op setup, Friend's Pass install, the seven-step "Waiting for Player" troubleshooting order with the Sep 9 save-game visual restoration reload step, and the Steam Remote Play Together desync-safe fallback cited by the co-op completion known-issue entry.
+- \`WheelMates system requirements page\` -> \`/system-requirements/\` - Cross-references the Firevolt developer-confirmed Steam Deck support sentence and the hardware baseline that the 21-trophy completion run is tested against.
+- \`WheelMates patch notes page\` -> \`/patch-notes/\` - Lists the Sep 1, 2, 4, 5, 7, and 9, 2026 hotfixes that have already shipped against the trophy completion failures the launch-week known-issue footnote documents.` },
+      { id: "achievements-fact-boundaries", type: "prose", heading: `Fact Boundaries`, body: `- Trophy count, names, public descriptions, and global completion percentages are taken from the Steam public achievements stats page for AppID 3905450 on 2026-09-18. Any trophy added after that date is not covered.
+- Global completion percentages reset whenever Steam recalculates its sample and exclude players with private profiles. Treat the numbers as a launch-week snapshot, not as a permanent record.
+- Per-trophy unlock-condition notes are community-confirmed patterns observed in Steam Community discussions as of 2026-09-18. They are not an official Firevolt guide.
+- A formal per-achievement unlock guide, additional post-launch achievements, and any fix for the launch-week trophies that refuse to unlock automatically are Not announced as of 2026-09-18.
+- Achievements on PS5, Xbox Series X|S, Xbox One, Nintendo Switch, and Nintendo Switch 2 are Not announced as of 2026-09-18; the Aug 21, 2026 "Q&A with the Devs" and Sep 2026 "What's Next for Wheelmates" first-party posts confirm the first-half-of-2027 console window but do not publish a console trophy list.` },
     ],
     faqIds: [],
     relatedPageIds: [],
     schemaTypes: ["Article", "BreadcrumbList"],
     sourceStatus: "official",
-    lastReviewed: "2026-09-05",
+    lastReviewed: "2026-09-18",
   },
   {
     id: "fixed-single-player",
